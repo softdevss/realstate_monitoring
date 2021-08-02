@@ -72,7 +72,7 @@
 				}
 			?>
 <?php
-  error_reporting(E_ALL ^ E_DEPRECATED);
+
   if(isset($_POST['studentlogin'])){
 include 'includes/config.php';
 
@@ -106,7 +106,7 @@ $conn->close();
 
 } ?>
 <?php
-  error_reporting(E_ALL ^ E_DEPRECATED);
+  
   if(isset($_POST['adminlogin'])){
 include 'includes/config.php';
 
@@ -141,9 +141,9 @@ $conn->close();
 
 								<ul class="nav nav-pills" align ="center">
 								
-									<li class="active"><a data-toggle="pill" href="#home">Client</a></li>
-									<li><a data-toggle="pill" href="#menu2">Admin</a></li>
-									<li><a data-toggle="pill" href="#menu1">agent</a></li>
+									<li class="active"><a data-toggle="pill" href="#home">CLIENT</a></li>
+									<li><a data-toggle="pill" href="#menu1">ADMINISTRATOR</a></li>
+									<li><a data-toggle="pill" href="#menu2">AGENT</a></li>
 
 								</ul>
 								<div class="tab-content">
@@ -167,8 +167,8 @@ $conn->close();
 									
 									<!-- Admin -->
 									<div id="menu1" class="tab-pane fade">
-										<h3>agent</h3>
-										<form method="post" action="index.php">
+										<h3>Admin</h3>
+										<form method="post" action="admin/index.php">
 										
 											<div class="form-group">
 												<input type="text" class="form-control" name="l_username" placeholder="Username">
@@ -177,15 +177,15 @@ $conn->close();
 												<input type="password" class="form-control" name="password" placeholder="Password">
 											</div>
 											<div class="form-group">
-												<button name="agentlogin" class="btn btn-block btn-primary signin-button-admin">Log in</button>
+												<button name="adminlogin" class="btn btn-block btn-primary signin-button-admin">Log in</button>
 												<button class="btn btn-block btn-danger signin-button">Cancel</button>
 											</div>
 										</form>
 									</div>
 									<!-- Teacher -->
 									<div id="menu2" class="tab-pane fade">
-										<h3>Admin</h3>
-										<form method="post" action="index.php">
+										<h3>Agent</h3>
+										<form method="post" action="agent.php">
 											<div class="form-group">
 												<input type="text" class="form-control" name="username" placeholder="Username">
 											</div>
@@ -199,7 +199,7 @@ $conn->close();
 												<input type="password" class="form-control" name="new_cpassword" placeholder="Password">
 											</div> -->
 											<div class="form-group">
-												<button name="adminlogin"class="btn btn-block btn-primary signin-button-School/Department">Log in</button>
+												<button name="login" class="btn btn-block btn-primary signin-button-School/Department">Log in</button>
 												<button class="btn btn-block btn-danger signin-button">Cancel</button>
 											</div>
 										</form>

@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	error_reporting("E-NOTICE");
+	
 ?>
 <header>
 			<div class="wrapperm" style="color:green">
