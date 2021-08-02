@@ -72,8 +72,8 @@
 								<th><font color="purple">Property Status</font></th>
 								
 								<th><font color="purple">Property Image</font></th>
-								<th><font color="purple">Landlord Name</font></th>
-								<th><font color="purple">Landlord Contact</font></th>
+								<th><font color="purple">agent Name</font></th>
+								<th><font color="purple">agent Contact</font></th>
 								<th width="110" class="ac"><font color="purple">Admin Action</font></th>
 								
 

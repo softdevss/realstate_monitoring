@@ -12,7 +12,7 @@
     {
         float: right;
     }
-</style>>
+</style>
 <body>
     <div id ="home">
         <a href="index.php"><font color="white"><button>HOME</button></font></a>
@@ -23,22 +23,22 @@
             <div class="box last">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h1>Landlord Login</h1>
+                        <h1>Agent Login</h1>
                         <div class="status alert alert-success" style="display: none"></div>
-                        <form method="post" action="landlord.php">
+                        <form method="post" action="agent.php">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <label>Landlord Username:</label>
-                                        <input type="text" class="form-control" required="required" name="username" placeholder="Landlord Username">
+                                        <label>Agent Username:</label>
+                                        <input type="text" class="form-control" required="required" name="username" placeholder="Agent Username">
                                     </div>
                                 </div>
                                 <br />
                                 <br />
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <label>Landlord Password:</label>
-                                        <input type="password" class="form-control" required="required" name="password" placeholder="landlord Password">
+                                        <label>Agent Password:</label>
+                                        <input type="password" class="form-control" required="required" name="password" placeholder="Agent Password">
                                     </div>
                                     <br />
                                     <br />

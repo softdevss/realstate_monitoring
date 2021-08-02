@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<title>Landlord Home</title>
+	<title>agent Home</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 </head>
 <body>
@@ -46,17 +46,17 @@
 								
                                  <p>
 									<span class="req">max 100 symbols</span>
-									<label>Landlord <span>(Required Field)</span></label>
-									<input type="text" class="field size1" name="landlord" required />
+									<label>agent <span>(Required Field)</span></label>
+									<input type="text" class="field size1" name="agent" required />
 								</p>	
                                   <p>
 									<span class="req">max 100 symbols</span>
-									<label>Phone Number of Landlord <span>(Required Field)</span></label>
+									<label>Phone Number of agent <span>(Required Field)</span></label>
 									<input type="text" class="field size1" name="phone" required />
 								</p>
                                    <p>
 									<span class="req">max 100 symbols</span>
-									<label>Full Name of the landlord <span>(Required Field)</span></label>
+									<label>Full Name of the agent <span>(Required Field)</span></label>
 									<input type="text" class="field size1" name="fname" required />
 								</p>									
 								<p>
@@ -108,7 +108,7 @@
 								
 								$image = basename($_FILES['image']['name']);
 								
-								$landlord = $_POST['landlord'];
+								$agent = $_POST['agent'];
 								$phonenumber = $_POST['phone'];
 								$fName = $_POST['fname'];
 								$house_type = $_POST['House_type'];
@@ -119,8 +119,8 @@
 								$max_capacity = $_POST['capacity'];
 								
 								
-								$qr = "INSERT INTO houses (landlord,phonenumber,fName,house_type,image,rent_cost,location,location_description,max_capacity,status) 
-													VALUES ('$landlord','$phonenumber','$fName','$house_type','$image','$rent_cost','$location','$location_description','$max_capacity','Available')";
+								$qr = "INSERT INTO houses (agent,phonenumber,fName,house_type,image,rent_cost,location,location_description,max_capacity,status) 
+													VALUES ('$agent','$phonenumber','$fName','$house_type','$image','$rent_cost','$location','$location_description','$max_capacity','Available')";
 								$res =mysqli_query($conn,$qr) or die(mysqli_error($conn));
 								if($res>0){
 									echo "<script type = \"text/javascript\">

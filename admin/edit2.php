@@ -3,7 +3,7 @@
 	if(isset($_GET['id']))
 	{
 	$user_id = $_GET['id'];
-	$select = mysqli_query($conn,"SELECT * FROM landlord WHERE landlord_id = '$user_id'") or die(mysqli_error($conn));
+	$select = mysqli_query($conn,"SELECT * FROM agent WHERE agent_id = '$user_id'") or die(mysqli_error($conn));
 	$selresult = mysqli_fetch_array($select);
 	}
 ?>
@@ -31,7 +31,7 @@
 		<div class="small-nav">
 			<a href="index.php">Dashboard</a>
 			<span>&gt;</span>
-			Edit Landlord
+			Edit agent
 		</div>
 		
 		<br />
@@ -43,12 +43,12 @@
 				
 				<div class="box">
 					<div class="box-head">
-						<h2>Edit Landlord Details</h2>
+						<h2>Edit agent Details</h2>
 
 				
 					</div>
 					
-					<form action="landlord_edit.php?id=<?php echo $user_id ?>" method="post" enctype="multipart/form-data">
+					<form action="agent_edit.php?id=<?php echo $user_id ?>" method="post" enctype="multipart/form-data">
 						
 						<div class="form">
 								<p>

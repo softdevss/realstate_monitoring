@@ -3,7 +3,7 @@
 <?php
 require_once 'book_House.php';
 include 'includes/config.php';
-<?php $sel = "SELECT * FROM landlord where l_username='$_GET[landlord]'";
+<?php $sel = "SELECT * FROM agent where l_username='$_GET[agent]'";
 						$rs = $conn->query($sel);
 						$rws = $rs->fetch_assoc();
 ?>

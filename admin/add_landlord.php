@@ -31,12 +31,12 @@
 		<div class="small-nav">
 			<a href="index.php">Dashboard</a>
 			<span>&gt;</span>
-			Add New Landlord
+			Add New agent
 		</div>
 		
 		<br />
 			<div class="blairman">
-						<a href="view_landlords.php"><buttton><font color="blue"><b>VIEW LANDLORDS</b></font></buttton></a>
+						<a href="view_agents.php"><buttton><font color="blue"><b>VIEW agentS</b></font></buttton></a>
 					</div>
 		<div id="main">
 			<div class="cl">&nbsp;</div>
@@ -45,11 +45,11 @@
 			
 				<div class="box">
 					<div class="box-head">
-						<h2>Add New Landlord</h2>
+						<h2>Add New agent</h2>
 
 					</div>
 					
-					<form action="add_landlord.php" method="post" enctype="multipart/form-data">
+					<form action="add_agent.php" method="post" enctype="multipart/form-data">
 						
 						<div class="form">
 								<p>
@@ -118,13 +118,13 @@
 								
 								
 								
-								$qr = "INSERT INTO landlord (l_username, email,fName,phonenumber,gender,location,password) 
+								$qr = "INSERT INTO agent (l_username, email,fName,phonenumber,gender,location,password) 
 													VALUES ('$l_username','$email','$fName','$phonenumber','$gender','$location','$password')";
 								$res =mysqli_query($conn,$qr) or die(mysqli_error($conn));
 								if($res>0){
 									echo "<script type = \"text/javascript\">
-											alert(\"Landlord added successfully\");
-											window.location = (\"add_landlord.php\")
+											alert(\"agent added successfully\");
+											window.location = (\"add_agent.php\")
 											</script>";
 									}
 								
@@ -132,7 +132,7 @@
 								{
 									echo "<script type = \"text/javascript\">
 											alert(\"House not added. Try again.\");
-											window.location = (\"add_landlord.php\")
+											window.location = (\"add_agent.php\")
 											</script>";
 								}
 							}

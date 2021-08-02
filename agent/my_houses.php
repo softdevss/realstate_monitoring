@@ -1,20 +1,13 @@
-
 <?php
 session_start();
 include '../includes/config.php';
 $l_username = $_SESSION['l_username'];
-$query1 = mysqli_query($conn, "SELECT * FROM landlord WHERE l_username = '$l_username'");
+$query1 = mysqli_query($conn, "SELECT * FROM agent WHERE l_username = '$l_username'");
 $result1 = mysqli_fetch_array($query1);
 
 $fName = $result1['fName'];
 $phonenumber = $result1['phonenumber'];
 ?>
-
-
-
-
-
-
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -70,8 +63,8 @@ $phonenumber = $result1['phonenumber'];
 								<th><font color="purple">Maximum Capacity</font></th>
 								<th><font color="purple">Property Status</font></th>
 								<th><font color="purple">Property Image</font></th>
-								<th><font color="purple">Landlord Name</font></th>
-								<th><font color="purple">Landlord Contact</font></th>
+								<th><font color="purple">agent Name</font></th>
+								<th><font color="purple">agent Contact</font></th>
 							
 
 							</tr>

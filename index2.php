@@ -43,13 +43,13 @@
 		</div>
 		<div class = "col-md-4 alert alert-info">
 		<?php
-				if(isset($_POST['landlordlogin'])){
+				if(isset($_POST['agentlogin'])){
 					include 'includes/config.php';
 					
 					$uname = $_POST['l_username'];
 					$pass = $_POST['password'];
 					
-					$query = "SELECT * FROM landlord WHERE l_username = '$uname' AND password = '$pass'";
+					$query = "SELECT * FROM agent WHERE l_username = '$uname' AND password = '$pass'";
 					$rs = $conn->query($query);
 					$num = $rs->num_rows;
 					$rows = $rs->fetch_assoc();
@@ -61,7 +61,7 @@
 						
 						echo "<script type = \"text/javascript\">
 									alert(\"Login Successful.................\");
-									window.location = (\"landlord/index.php\")
+									window.location = (\"agent/index.php\")
 									</script>";
 					} else{
 						echo "<script type = \"text/javascript\">
@@ -143,7 +143,7 @@ $conn->close();
 								
 									<li class="active"><a data-toggle="pill" href="#home">Client</a></li>
 									<li><a data-toggle="pill" href="#menu2">Admin</a></li>
-									<li><a data-toggle="pill" href="#menu1">Landlord</a></li>
+									<li><a data-toggle="pill" href="#menu1">agent</a></li>
 
 								</ul>
 								<div class="tab-content">
@@ -167,7 +167,7 @@ $conn->close();
 									
 									<!-- Admin -->
 									<div id="menu1" class="tab-pane fade">
-										<h3>Landlord</h3>
+										<h3>agent</h3>
 										<form method="post" action="index.php">
 										
 											<div class="form-group">
@@ -177,7 +177,7 @@ $conn->close();
 												<input type="password" class="form-control" name="password" placeholder="Password">
 											</div>
 											<div class="form-group">
-												<button name="landlordlogin" class="btn btn-block btn-primary signin-button-admin">Log in</button>
+												<button name="agentlogin" class="btn btn-block btn-primary signin-button-admin">Log in</button>
 												<button class="btn btn-block btn-danger signin-button">Cancel</button>
 											</div>
 										</form>

@@ -39,7 +39,7 @@
 						include 'includes/config.php';
 						$user=$_SESSION['username'];
 						
-						$sel = "SELECT * FROM houses where landlord= '$user'";
+						$sel = "SELECT * FROM houses where agent= '$user'";
 						$rs = $conn->query($sel);
 						while($rws = $rs->fetch_assoc()){
 			?>
