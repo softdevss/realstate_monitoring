@@ -40,7 +40,7 @@
 					$_SESSION['logged']="true";
 					$session = "1";	
 							
-				header("location:index11.php?user=$username");				 	
+				header("location:indexclient.php?user=$username");				 	
 				}
 		}
 	?>

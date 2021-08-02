@@ -7,7 +7,7 @@
     <meta name="author" content="MUSA" >
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>real estate management system</title>
+    <title>RYC Zamboanga Best Homes</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -41,23 +41,23 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon icon-shield" style="font-size:30px; color:purple;"></span>
+            <span class="icon icon-shield" style="font-size:30px; color:pink;"></span>
           </button>
-          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:purple;"></span></a>
+          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:pink;"></span></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#home" class="smoothScroll"><b><font color="white">Home</font></b></a></li>
-			<li> <a href="#about" class="smoothScroll"> <b><font color="white">About Us</font></b></a></li>
-			<li> <a href="#services" class="smoothScroll"><b><font color="white">Services</font></b></a></li>
+			<!--<li> <a href="#about" class="smoothScroll"> <b><font color="white">About Us</font></b></a></li>-->
+			<!--<li> <a href="#services" class="smoothScroll"><b><font color="white">Services</font></b></a></li>-->
 			
-			<li> <a href="#testimonial" class="smoothScroll"> <b><font color="white">Testimonials</font></b></a></li>
+			<li> <a href="#review" class="smoothScroll"> <b><font color="white">Reviews</font></b></a></li>	
+			<li> <a href="properties.php" class="smoothScroll"><b><font color="white">Properties</font></b></a></li>
 			<li> <a href="#contact" class="smoothScroll"> <b><font color="white">Contact</font></b></a></li>
-			<li> <a href="properties.php" class="smoothScroll"><b><font color="white">Our Properties</font></b></a></li>
-			<li> <a href="#register" class="smoothScroll"><b><font color="white"> Client Registration</b></font></a></li>
-			<li> <a href="#login" class="smoothScroll"><b><font color="white">Client Login</font></b></a></li>
-			<li> <a href="landlord_reg.php" class="smoothScroll"><b><font color="white" title="Register Here">Landlord</font></b></a></li>
-			<li> <a href="landlordlogin.php" class="smoothScroll"><b><font color="white">Landlord Login</font></b></a></li>
+			<!--<li> <a href="#register" class="smoothScroll"><b><font color="white"> Client Registration</b></font></a></li>-->
+			<li> <a href="account.php" class="smoothScroll"><b><font color="white">Client Login</font></b></a></li>
+			<!--<li> <a href="landlord_reg.php" class="smoothScroll"><b><font color="white" title="Register Here">Landlord</font></b></a></li>-->
+			<!--<li> <a href="landlordlogin.php" class="smoothScroll"><b><font color="white">Landlord Login</font></b></a></li>-->
 			
         </div><!--/.nav-collapse -->
       </div>

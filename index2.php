@@ -72,7 +72,7 @@
 				}
 			?>
 <?php
-  error_reporting(E_ALL ^ E_DEPRECATED);
+
   if(isset($_POST['studentlogin'])){
 include 'includes/config.php';
 
@@ -106,7 +106,7 @@ $conn->close();
 
 } ?>
 <?php
-  error_reporting(E_ALL ^ E_DEPRECATED);
+  
   if(isset($_POST['adminlogin'])){
 include 'includes/config.php';
 
