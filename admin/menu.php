@@ -1,5 +1,5 @@
 <?php
-	error_reporting("E-NOTICE");
+	
 ?>
 
 <div id="top">

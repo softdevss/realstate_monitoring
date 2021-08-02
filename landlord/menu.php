@@ -1,16 +1,7 @@
 <?php
-	error_reporting("E-NOTICE");
+	
 ?>
-<?php
-	session_start();
-	if(!$_SESSION['uname'] && (!$_SESSION['pass'])){
-		//header("location: ../login.php");
-	}
-	else{
-	$user=$_SESSION['uname'];
 
-	}
-?>
 <div id="top">
 			<h1><a href="#">Real Estate Management System</a></h1>
 			<div id="top-navigation">
