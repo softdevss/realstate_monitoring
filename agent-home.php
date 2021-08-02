@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Property Details</title>
+	<title>rael estate management system.</title>
 	<meta charset="utf-8">
 	<meta name="author" content="pixelhint.com">
 	<meta name="description" content="La casa free real state fully responsive html5/css3 home page website template"/>
@@ -21,23 +22,26 @@
 		?>
 
 			<section class="caption">
-				<h2 class="caption" style="text-align: center">Find You a house for rent</h2>
-				<h3 class="properties" style="text-align: center">Self contain ~Bed Sitter ~Square</h3
+			<?php
+
+  ?>
+				<p style="text-align: center"><font size="10px;"> Welcome </font></p> <?php  $fName=$_SESSION['username']; echo $fName;  ?>
 			</section>
+			
 	</section><!--  end hero section  -->
-	
+
+
 	<section class="listings">
 		<div class="wrapper">
 			<ul class="properties_list">
 			<?php
+			
 						include 'includes/config.php';
-						$sel = "SELECT * FROM houses WHERE house_id = '$_GET[id]'";
+						$user=$_SESSION['username'];
+						
+						$sel = "SELECT * FROM houses where agent= '$user'";
 						$rs = $conn->query($sel);
-						$rws = $rs->fetch_assoc();
-					$landlord = $resultset['landlord'];
-					$phonenumber = $resultset['phonenumber'];
-					$fName = $resultset['fName'];
-					
+						while($rws = $rs->fetch_assoc()){
 			?>
 				<li>
 					<a href="book_House.php?id=<?php echo $rws['house_id'] ?>">
@@ -47,28 +51,18 @@
 					<div class="property_details">
 						<h1>
 							<a href="book_House.php?id=<?php echo $rws['house_id'] ?>"><?php echo 'House Type: '.$rws['house_type'];?></a>
-						</h1
+						</h1>
 						<h2>Location: <span class="property_size"><?php echo $rws['location'];?></span></h2>
 					</div>
-					
 				</li>
-				<h3>Landlord Contacts </h3>								
-								
-<br>
-	<?php echo $rws['fName'];?>
-	<br>
-	<b>
-	<?php echo $rws['phonenumber'];?>
-	<b>
-	<br>
-	<?php echo $rws['email'];?>
-				
+			<?php
+				}
+			?>
 			</ul>
-			<h2>Descriptions: <span class="property_size"> </span></h2>
-<?php echo $rws['location_description'];?>
 		</div>
-		
 	</section>	<!--  end listing section  -->
 
+	
+	
 </body>
 </html>

@@ -34,7 +34,7 @@
 		<div class="small-nav">
 			<a href="index.php">Dashboard</a>
 			<span>&gt;</span>
-			Landlords
+			agents
 			
 		</div>
 		
@@ -48,7 +48,7 @@
 				<div class="box">
 					<!-- Box Head -->
 					<div class="box-head">
-						<h2 class="left">Landlords</h2>
+						<h2 class="left">agents</h2>
 						
 					
 					</div>
@@ -57,7 +57,7 @@
 							<tr>
 								<th width="13"><input type="checkbox" class="checkbox" /></th>
 								
-								<th><font color="purple">Landlord Id</font></th>		
+								<th><font color="purple">agent Id</font></th>		
 								<th><font color="purple">Full Name</font></th>
 								<th><font color="purple">Email</font></th>
 								<th><font color="purple">Phone Number</font></th>
@@ -68,7 +68,7 @@
 							</tr>
 							<?php
 								include '../includes/config.php';
-								$select = "SELECT * FROM landlord";
+								$select = "SELECT * FROM agent";
 
 								$result = mysqli_query($conn,$select) or die(mysqli_error($conn));
 								while($row = $result->fetch_assoc()){
@@ -76,12 +76,12 @@
 							?>
 							<tr>
 								<td><input type="checkbox" class="checkbox" /></td>	
-								<td><h3><a href="#"><?php echo $row['landlord_id'] ?></a></h3></td>												
+								<td><h3><a href="#"><?php echo $row['agent_id'] ?></a></h3></td>												
 								<td><a href="#"><?php echo $row['fName'] ?></a></td>
 								<td><a href="#"><?php echo $row['email'] ?></a></td>
 								<td><a href="#"><?php echo $row['phonenumber'] ?></a></td>		
                                		<td><a href="#"><?php echo $row['location'] ?></a></td>						
-								<td><a href="javascript:sureToEdit(<?php echo $row['landlord_id'];?>)" class="ico del">Edit</a><a href="javascript:sureToDelete(<?php echo $row['landlord_id'];?>)" class="ico edit">Delete</a></td>
+								<td><a href="javascript:sureToEdit(<?php echo $row['agent_id'];?>)" class="ico del">Edit</a><a href="javascript:sureToDelete(<?php echo $row['agent_id'];?>)" class="ico edit">Delete</a></td>
 							</tr>
 							<?php
 								}

@@ -1,7 +1,6 @@
 <?php
-	
-?>
 
+?>
 <div id="top">
 			<h1><a href="#">Real Estate Management System</a></h1>
 			<div id="top-navigation">

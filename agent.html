@@ -33,14 +33,14 @@ include 'includes/config.php';
 $myuser = $_POST['username'];
 $mypass = $_POST['password'];
 
-$sql = "SELECT * FROM landlord where l_username='$myuser' and password='$mypass'";
+$sql = "SELECT * FROM agent where l_username='$myuser' and password='$mypass'";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {    
       
 setcookie(loggedin, date("F jS - g:i a"), $seconds);
 session_start();
 $_SESSION['username'] = $myuser;
-header("location:landlord-home.php?user=$myuser");
+header("location:agent-home.php?user=$myuser");
 
     }
  else {
