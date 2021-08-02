@@ -1,16 +1,19 @@
+<?php
+session_start();
+include '../includes/config.php';
+$l_username = $_SESSION['l_username'];
+$query1 = mysqli_query($conn, "SELECT * FROM agent WHERE l_username = '$l_username'");
+$result1 = mysqli_fetch_array($query1);
+
+$fName = $result1['fName'];
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<title>Landlord</title>
+	<title>agent home</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-	<script type="text/javascript">
-		function sureToApprove(id){
-			if(confirm("Are you sure you want to Approve this request?")){
-				window.location.href ='approve.php?id='+id;
-			}
-		}
-	</script>
 </head>
 <body>
 <!-- Header -->
@@ -20,6 +23,9 @@
 		<?php
 			include 'menu.php';
 		?>
+		</div>
+		<!-- End Main Nav -->
+		<p>Welcome agent : <font color="blue"><u><?php echo $fName ?></u></font>
 	</div>
 </div>
 
@@ -29,7 +35,7 @@
 		<div class="small-nav">
 			<a href="index.php">Dashboard</a>
 			<span>&gt;</span>
-			Clients Requests
+			Client Messages
 		</div>
 		
 		<br />
@@ -42,47 +48,40 @@
 				<div class="box">
 					<!-- Box Head -->
 					<div class="box-head">
-						<h2 class="left">Clients Requests</h2>
-						
+						<h2 class="left">Client Messages</h2>					
 					</div>
 					
 					<div class="table">
 						<table width="100%" border="0" cellspacing="0" cellpadding="0">
 							<tr>
+								
 								<th width="13"><input type="checkbox" class="checkbox" /></th>
-								<th>Student Id</th>
+								<th><font color="purple">Client Name</font></th>
+								<th><font color="purple">Message Content</font></th>
 								
-								<th>House Booked</th>
-								<th>Rental Cost</th>								
 								
-								<th width="110" class="ac">Content Control</th>
 							</tr>
 							<?php
 								include '../includes/config.php';
-								$select = "SELECT userbook.houseid,userbook.user_id,houses.house_id,houses.rent_cost
-										FROM userbook JOIN houses ON userbook.houseid=houses.house_id";
-								$result = mysqli_query($conn,$select) or die(mysqli_error($conn));
+								$select = "SELECT * FROM message";
+								$result = $conn->query($select);
 								while($row = $result->fetch_assoc()){
 							?>
 							<tr>
 								<td><input type="checkbox" class="checkbox" /></td>
-								<td><h3><a href="#"><?php echo $row['user_id'] ?></a></h3></td>
-								<td><h3><a href="#"><?php echo $row['house_id'] ?></a></h3></td>
+								<td><?php echo $row['name'] ?></td>
 								
-								<td><a href="#"><?php echo $row['rent_cost'] ?></a></td>
 								
-								<td><a href="javascript:sureToApprove(<?php echo $row['id'];?>)" class="ico del">Approve</a></td>
+								<td><?php echo $row['message'] ?></td>
+								
+								
 							</tr>
 							<?php
 								}
 							?>
 						</table>
-						
-						
-						
-						
 					</div>
-					<h2><input type="submit" onclick="window.print()" value="Print Here" /></h2>
+					
 					
 				</div>
 				<!-- End Box -->
@@ -90,7 +89,16 @@
 			</div>
 			<!-- End Content -->
 			
-			
+			<!-- Sidebar -->
+			<div id="sidebar">
+				
+				<!-- Box -->
+				
+					</div>
+				</div>
+				<!-- End Box -->
+			</div>
+			<!-- End Sidebar -->
 			
 			<div class="cl">&nbsp;</div>			
 		</div>
@@ -102,10 +110,8 @@
 <!-- Footer -->
 <div id="footer">
 	<div class="shell">
-		<span class="left">&copy; <?php echo date("Y");?> Mount Kenya Real Estate Management</span>
-		<span class="right">
-			Design by Blair</a>
-		</span>
+		<span class="left">&copy; <?php echo date("Y");?> Real Estate Management System.</span>
+		
 	</div>
 </div>
 <!-- End Footer -->

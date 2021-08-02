@@ -23,7 +23,7 @@
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <style>
-body
+.body
 {
 
 }
@@ -64,8 +64,8 @@ body
 						<h2>Location: <span class="property_size"><?php echo $rws['location'];?></span></h2>
 						<h3><font color="blue">Property Number: </font><span class="property_size"><?php echo $rws['house_id'];?></span></h3>
 						<h3><font color="blue">Status: </font><span class="property_size"><?php echo $rws['status'];?></span></h3>
-						<h3><font color="blue">Landlord Name: </font><span class="property_size"><?php echo $rws['name'];?></span></h3>
-						<h3><font color="blue">Landlord Contact: </font><span class="property_size"><?php echo $rws['contact'];?></span></h3>
+						<h3><font color="blue">agent Name: </font><span class="property_size"><?php echo $rws['name'];?></span></h3>
+						<h3><font color="blue">agent Contact: </font><span class="property_size"><?php echo $rws['contact'];?></span></h3>
 						<h3><a href="bookreq.php?id=<?php echo $rws['house_id']?>"><font color="green">BOOK</font></a></h3>
 					</div>
 					

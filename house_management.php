@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<title>Landlord Home</title>
+	<title>agent Home</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 	<script type="text/javascript">
 		function sureToApprove(id){
@@ -57,7 +57,7 @@
 							<tr>
 								<th width="13"><input type="checkbox" class="checkbox" /></th>
 								<th>House type</th>
-								<th>Landlord</th>
+								<th>agent</th>
 								<th>Rent price</th>
 								<th width="110" class="ac">Content Control</th>
 							</tr>
@@ -67,7 +67,7 @@
 						$_SESSION['username'] = $rows['l_username'];
 						$user=$_SESSION['username'];
 						$_SESSION['pass'] = $rows['password'];
-								$select = "SELECT * FROM houses where landlord='$user'";
+								$select = "SELECT * FROM houses where agent='$user'";
 								$result = $conn->query($select);
 								while($row = $result->fetch_assoc()){
 									

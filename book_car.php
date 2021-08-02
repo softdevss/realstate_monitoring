@@ -34,7 +34,7 @@
 						$sel = "SELECT * FROM houses WHERE house_id = '$_GET[id]'";
 						$rs = $conn->query($sel);
 						$rws = $rs->fetch_assoc();
-					$landlord = $resultset['landlord'];
+					$agent = $resultset['agent'];
 					$phonenumber = $resultset['phonenumber'];
 					$fName = $resultset['fName'];
 					
@@ -52,7 +52,7 @@
 					</div>
 					
 				</li>
-				<h3>Landlord Contacts </h3>								
+				<h3>agent Contacts </h3>								
 								
 <br>
 	<?php echo $rws['fName'];?>

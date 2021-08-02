@@ -12,7 +12,7 @@
 					?>
 					<ul>
 						<li><a href="index.php">Home</a></li>						
-						<li><a href="landlord.php">Landlord</a></li>
+						<li><a href="agent.php">agent</a></li>
 						
 					</ul>
 					<a href="account.php">Client Login</a>

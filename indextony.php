@@ -24,7 +24,7 @@
 					<a href="index.php"><font color="green"><font size="5px;"><u>Home</u></font></a>
 					<a href="account.php"><font color="blue"><font size="5px;"><u>Student Login</u></font></a>					
 					<a href="login.php"><font color="orange"><font size="5px;"><u>Admin Login</u></font></a>					
-					<a href="landlord.php"><font color="violet"><font size="5px;"><u>Landlord Login</u></font></a>
+					<a href="agent.php"><font color="violet"><font size="5px;"><u>agent Login</u></font></a>
 			</ul></center>				
 <div class ="blair2">
 			<center><section >

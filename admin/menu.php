@@ -18,7 +18,7 @@
 			    <li><a href="client_requests.php"><span>Booking Requests</span></a></li>
 			    <li><a href="view_clients.php"><span>View Clients</span></a></li>
 				<li><a href="add_cars.php"><span>Add New Property</span></a></li>
-				<li><a href="add_landlord.php"><span>Add New Landlord</span></a></li>
+				<li><a href="add_agent.php"><span>Add New agent</span></a></li>
 				<li><a href="add_client.php"><span>Add New Client</span></a></li>				
             </ul>
           </li>

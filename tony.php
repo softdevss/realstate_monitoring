@@ -38,7 +38,7 @@
                         <li><a href="#contact_us">Contact Us</a></li>
 						<li><a href="#register">Client Registration</a></li>
                         <li><a href="#clientlogin">Client Login</a></li>
-						<a href="landlordlogin.php"><button>Landlord</button></a>
+						<a href="agentlogin.php"><button>agent</button></a>
 						<a href="adminlogin.php"><button>Administrator</button></a>
                     </ul>
                 </div>

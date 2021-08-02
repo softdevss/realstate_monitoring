@@ -107,11 +107,11 @@ INSERT INTO `houses` (`house_id`, `house_type`, `image`, `rent_cost`, `location`
 -- --------------------------------------------------------
 
 --
--- Table structure for table `landlord`
+-- Table structure for table `agent`
 --
 
-CREATE TABLE `landlord` (
-  `landlord_id` int(11) NOT NULL,
+CREATE TABLE `agent` (
+  `agent_id` int(11) NOT NULL,
   `l_username` varchar(30) NOT NULL,
   `email` varchar(30) NOT NULL,
   `fName` varchar(50) NOT NULL,
@@ -122,10 +122,10 @@ CREATE TABLE `landlord` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `landlord`
+-- Dumping data for table `agent`
 --
 
-INSERT INTO `landlord` (`landlord_id`, `l_username`, `email`, `fName`, `phonenumber`, `gender`, `location`, `password`) VALUES
+INSERT INTO `agent` (`agent_id`, `l_username`, `email`, `fName`, `phonenumber`, `gender`, `location`, `password`) VALUES
 (8, 'kiome', 'vic@gmail.com', 'kIOME VIC', '0733223321', 'Male', 'Makutano', '81dc9bdb52d04dc20036dbd8313ed055'),
 (9, 'blairman', 'blairman001@gmail.com', 'Tony Blair', '0715096908', '', 'Kisumu City', 'e10adc3949ba59abbe56e057f20f883e'),
 (10, 'blair', 'ddghg@gmail.com', 'tony', '45655', 'Male', 'nchiru', '81dc9bdb52d04dc20036dbd8313ed055'),
@@ -261,10 +261,10 @@ ALTER TABLE `houses`
   ADD PRIMARY KEY (`house_id`);
 
 --
--- Indexes for table `landlord`
+-- Indexes for table `agent`
 --
-ALTER TABLE `landlord`
-  ADD PRIMARY KEY (`landlord_id`);
+ALTER TABLE `agent`
+  ADD PRIMARY KEY (`agent_id`);
 
 --
 -- Indexes for table `message`
@@ -315,10 +315,10 @@ ALTER TABLE `hire`
 ALTER TABLE `houses`
   MODIFY `house_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 --
--- AUTO_INCREMENT for table `landlord`
+-- AUTO_INCREMENT for table `agent`
 --
-ALTER TABLE `landlord`
-  MODIFY `landlord_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+ALTER TABLE `agent`
+  MODIFY `agent_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `message`
 --

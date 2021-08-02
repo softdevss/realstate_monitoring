@@ -56,8 +56,8 @@
 			<li> <a href="properties.php" class="smoothScroll"><b><font color="white">Our Properties</font></b></a></li>
 			<li> <a href="#register" class="smoothScroll"><b><font color="white"> Client Registration</b></font></a></li>
 			<li> <a href="#login" class="smoothScroll"><b><font color="white">Client Login</font></b></a></li>
-			<li> <a href="landlord_reg.php" class="smoothScroll"><b><font color="white" title="Register Here">Landlord</font></b></a></li>
-			<li> <a href="landlordlogin.php" class="smoothScroll"><b><font color="white">Landlord Login</font></b></a></li>
+			<li> <a href="agent_reg.php" class="smoothScroll"><b><font color="white" title="Register Here">agent</font></b></a></li>
+			<li> <a href="agentlogin.php" class="smoothScroll"><b><font color="white">agent Login</font></b></a></li>
 			
         </div><!--/.nav-collapse -->
       </div>

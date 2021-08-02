@@ -44,14 +44,14 @@
   	<a href="index.php"><font color="blue"><b><u><font size="6px;">HOME</font></u></b></font></a>
   </div>
   
-  <center><h1><font size="5px;">Landlord Registration</font></h1></center>
+  <center><h1><font size="5px;">Agent Registration</font></h1></center>
   <br>
   <br>
 		<!-- ==== HEADERWRAP ==== -->
 	   <div class="">
 
                        <center>
-						<form class="" role="form" action="land_register.php" method="POST">
+						<form class="" role="form" action="agent_register.php" method="POST">
 							<div class="col-lg-10">
 						      <input type="text" class="form-control" id="text1" placeholder="Enter Your Full Name" required="required" name="fname">
 						    </div>

@@ -17,13 +17,13 @@
 								
 								
 								
-								$qr = "INSERT INTO landlord (l_username, email,fName,phonenumber, gender,location,password) 
+								$qr = "INSERT INTO agent (l_username, email,fName,phonenumber, gender,location,password) 
 													VALUES ('$l_username','$email','$fName','$phonenumber','$gender','$location','$password')";
 								$res =mysqli_query($conn,$qr) or die(mysqli_error($conn));
 								if($res>0){
 									echo "<script type = \"text/javascript\">
-											alert(\"Landlord Registered successfully\");
-											window.location = (\"landlord_reg.php\")
+											alert(\"agent Registered successfully\");
+											window.location = (\"agent_reg.php\")
 											</script>";
 									}
 								
@@ -31,7 +31,7 @@
 								{
 									echo "<script type = \"text/javascript\">
 											alert(\"Registration Failed. Try again.\");
-											window.location = (\"landlord_reg.php\")
+											window.location = (\"agent_reg.php\")
 											</script>";
 								}
 							}

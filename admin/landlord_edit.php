@@ -13,17 +13,17 @@ include '../includes/config.php';
 							
 							
 							
-							$qry = "UPDATE landlord SET fName='$fname', email='$email', phonenumber='$phone' , l_username='$username' , location='$location' WHERE landlord_id = '$user_id'";
+							$qry = "UPDATE agent SET fName='$fname', email='$email', phonenumber='$phone' , l_username='$username' , location='$location' WHERE agent_id = '$user_id'";
 							$result=mysqli_query($conn,$qry) or die(mysqli_error($conn));
 							if($result){
 								echo "<script type = \"text/javascript\">
-											alert(\"Landlord Details Successfully Updated.\");
-											window.location = (\"view_landlords.php\")
+											alert(\"agent Details Successfully Updated.\");
+											window.location = (\"view_agents.php\")
 											</script>";
 							} else{
 								echo "<script type = \"text/javascript\">
-											alert(\"Landlord Update Failed. Try Again\");
-											window.location = (\"view_landlords.php\")
+											alert(\"agent Update Failed. Try Again\");
+											window.location = (\"view_agents.php\")
 											</script>";
 							}
 						}

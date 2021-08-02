@@ -2,7 +2,7 @@
 session_start();
 include '../includes/config.php';
 $l_username = $_SESSION['l_username'];
-$query1 = mysqli_query($conn, "SELECT * FROM landlord WHERE l_username = '$l_username'");
+$query1 = mysqli_query($conn, "SELECT * FROM agent WHERE l_username = '$l_username'");
 $result1 = mysqli_fetch_array($query1);
 
 $fName = $result1['fName'];
@@ -12,7 +12,7 @@ $phonenumber = $result1['phonenumber'];
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<title>Landlord Home</title>
+	<title>agent Home</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 </head>
 <body>
@@ -84,12 +84,12 @@ $phonenumber = $result1['phonenumber'];
 								</p>	
 								<p>
 									
-									<label>Landlord Name<span>(Required Field)</span></label>
+									<label>agent Name<span>(Required Field)</span></label>
 									<input type="text" value="<?php echo $fName ?>"  readonly="readonly"accept=" " class="field size1" name="name"required="required" />
 								</p>	
 								<p>
 									
-									<label>Landlord Contact<span>(Required Field)</span></label>
+									<label>agent Contact<span>(Required Field)</span></label>
 									<input type="number" value="<?php echo $phonenumber ?>"  readonly="readonly" class="field size1" name="phone"required="required" />
 								</p>	
 							

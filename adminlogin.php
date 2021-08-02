@@ -12,7 +12,7 @@
     {
         float: right;
     }
-</style>>
+</style>
 <body>
     <div id ="home">
         <a href="index.php"><font color="white"><button>HOME</button></font></a>

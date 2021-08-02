@@ -77,12 +77,12 @@
 								</p>
 								<p>
 									
-									<label>Landlord Name <span>(Required Field)</span></label>
+									<label>agent Name <span>(Required Field)</span></label>
 									<input type="text" class="field size1" name="name" required="required" />
 								</p>	
 								<p>
 									
-									<label>Landlord Contact <span>(Required Field)</span></label>
+									<label>agent Contact <span>(Required Field)</span></label>
 									<input type="number" class="field size1" name="contact" required="required" />
 								</p>	
 							

@@ -33,7 +33,7 @@
         <li class="active"><a href="index.php">Home</a></li>
 		 <li><a href="about.php"><b>About us</b></a></li>	
         <li><a href="account.php"><b>Client</b></a></li>
-        <li><a href="landlord.php"><b>Landlord</b></li>
+        <li><a href="agent.php"><b>agent</b></li>
         <li><a href="login.php"><b>Administrator</b></a></li> 	
       </ul>
     </nav>
@@ -54,7 +54,7 @@
   <div class="container">
     <div class="about span-6 append-1">
       <h3>About Real Estate Management System</h3>
-      <p>This is a site that helps clients to get properties at an affordable price.The clients s are able to book the rooms online from the comfort of their beds and communicate online with the landlord and the admin.</p>
+      <p>This is a site that helps clients to get properties at an affordable price.The clients s are able to book the rooms online from the comfort of their beds and communicate online with the agent and the admin.</p>
       <p class="social_icons">Follow us on :<a href="#"><img src="images/tweeter.png" alt=""></a> <a href="www.facebook.com/blairt94/"><img src="images/facebook.png" alt=""></a> <a href="#"><img src="images/gplus.png" alt=""></a> </p>
       <h4><b>Email: </b>vic@gmail.com</h4>
            <font color="green"><h4><font color="blue"><u>CONTACTS:</u></font><br /> <marquee scrollamount="5" width="40"><img src="images/phone.png" alt="img" />
