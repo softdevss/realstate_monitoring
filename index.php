@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="MUSA" >
     <link rel="shortcut icon" href="assets/ico/favicon.png">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>real estate management system</title>
 
     <!-- Bootstrap core CSS -->
@@ -15,10 +15,12 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/icomoon.css">
-    <link href="assets/css/animate-custom.css" rel="stylesheet">
+    <link href="css/animate-custom.css" rel="stylesheet">
 
-
-    
+	<!---- font icons -->
+	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link href="css/stylingsheet.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     
@@ -34,43 +36,26 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
   
-  
-  	<div id="navbar-main">
-      <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon icon-shield" style="font-size:30px; color:purple;"></span>
-          </button>
-          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:purple;"></span></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll"><b><font color="white">Home</font></b></a></li>
-			<li> <a href="#about" class="smoothScroll"> <b><font color="white">About Us</font></b></a></li>
-			<li> <a href="#services" class="smoothScroll"><b><font color="white">Services</font></b></a></li>
-			
-			<li> <a href="#testimonial" class="smoothScroll"> <b><font color="white">Testimonials</font></b></a></li>
-			<li> <a href="#contact" class="smoothScroll"> <b><font color="white">Contact</font></b></a></li>
-			<li> <a href="properties.php" class="smoothScroll"><b><font color="white">Our Properties</font></b></a></li>
-			<li> <a href="#register" class="smoothScroll"><b><font color="white"> Client Registration</b></font></a></li>
-			<li> <a href="#login" class="smoothScroll"><b><font color="white">Client Login</font></b></a></li>
-			<li> <a href="landlord_reg.php" class="smoothScroll"><b><font color="white" title="Register Here">Landlord</font></b></a></li>
-			<li> <a href="landlordlogin.php" class="smoothScroll"><b><font color="white">Landlord Login</font></b></a></li>
-			
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-    </div>
-
-  
+  <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">RCY REAL HOMES</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">LANDS</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">SIGN IN</a></li>
+      </ul>
+    </nav>
   
 		<!-- ==== HEADERWRAP ==== -->
-	    <div id="headerwrap" id="home" name="home">
-			<header class="clearfix">
-	  		 		
-	  		</header>	    
+	    <div id="headerwrap" class="cover-background" id="home" name="home">
+				<div class="header-content">
+					<h3>Dream <br><span>Home</span> is <br>Right Here</h3>
+				</div>
 	    </div><!-- /headerwrap -->
 
 		<!-- ==== GREYWRAP ==== -->
@@ -79,48 +64,47 @@
 				<div class="col-lg-4 callout">
 					<span class="icon icon-stack"></span>
 					<h2>Our Mission</h2>
-					<p>Shield Theme is powered by Bootstrap 3. The incredible Mobile First Framework is the best option to run your website. </p>
+					<p class="about-title">Our mission is to provide exceptional services and customer satisfaction by fulfilling their need of residential houses. We aim to be more results oriented yet with a happy working environment. </p>
 				</div><!-- col-lg-4 -->
 					
 				<div class="col-lg-4 callout">
 					<span class="icon icon-eye"></span>
 					<h2>Our Vision</h2>
-					<p>You can use this theme with your iPhone, iPad or MacBook Pro. This theme is retina ready and that is awesome. </p>
+					<p class="about-title">By 2025 our company will be the number one real estate developer in Zamboanga City, and will not only cater residential housing but as well as engaging in the development of offices, apartments, hotels and mixed – use projects by branching out our services and creating eco friendly yet affordable service to our customers. </p>
 				</div><!-- col-lg-4 -->	
 				
 				<div class="col-lg-4 callout">
 					<span class="icon icon-heart"></span>
 					<h2>Our Sovereignity</h2>
-					<p>We don't make sites, we craft themes with love & passion. That is our most valued secret. We only do thing that we love.   </p>
+					<p class="about-title">Our customers are our top priority. We continuously offer the newest design in houses, providing them options to fill in their needs. We only use high quality standard materials yet providing affordable and budget payment terms </p>
 				</div><!-- col-lg-4 -->	
 			</div><!-- row -->
 		</div><!-- greywrap -->
 		
 		<!-- ==== ABOUT ==== -->
 		<br>
-		<br>
-		<div class="container" id="about" name="about">
-			<div class="row white">
-			<br>
-				<h1 class="centered">A LITTLE ABOUT OUR AGENCY</h1>
-				<hr>
-				
-				<div class="col-lg-6">
-					<p>We believe ideas come from everyone, everywhere. In fact, at BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design. We’re big believers in doing right by our neighbors. After all, we grew up in the Twin Cities and we believe this place has much to offer. So we do what we can to support the community we love.</p>
-				</div><!-- col-lg-6 -->
-				
-				<div class="col-lg-6">
-					<p>Over the past four years, we’ve provided more than $1 million in combined cash and pro bono support to Way to Grow, an early childhood education and nonprofit organization. Other community giving involvement throughout our agency history includes pro bono work for more than 13 organizations, direct giving, a scholarship program through the Minneapolis College of Art & Design, board memberships, and ongoing participation in the Keystone Club, which gives five percent of our company’s earnings back to the community each year.</p>
-				</div><!-- col-lg-6 -->
-			</div><!-- row -->
-		</div><!-- container -->
 		
-		<!-- ==== SECTION DIVIDER1 -->
+			<div class="about-flex">
+				
+					<img src="assets/img/about_rcy.jpg" alt="">
+				
+				<div class="img-content">
+					<h3>About our company</h3>
+					<p>is a privately owned real estate development company engaged in development of purely residential houses specializing in low cost and mid cost housing projects. In addition, we also offer Lot only option to our clients. we started our company last 2016 in the Latin Capital, Zamboanga City. 
+Founded by a true blooded Zamboangeño entrepreneurs who wanted to fulfill the needs of fellow Zamboangeños of affordable but high standard quality housing. 
+Guided by our strong faith, good family values and genuine positive attitude in real estate, we are highly driven to satisfy our costumers, enriching the community by giving the dream homes they deserve
+</p>
+				</div>
+			</div>
+
+
+		
 		<section class="section-divider textdivider divider1">
 			<div class="container">
 				<h1>DESIGN EXPAND BOUNDARIES</h1>
 				<hr>
-				<p>To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity.</p>
+				<p>Focusses on building ties and working closely with members of the community.
+</p>
 			</div><!-- container -->
 		</section><!-- section -->
 
