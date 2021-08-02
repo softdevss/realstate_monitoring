@@ -25,7 +25,6 @@ $phonenumber = $result1['phonenumber'];
 			include 'menu.php';
 		?>
 		</div>
-		<!-- End Main Nav -->
 	</div>
 </div>
 
