@@ -6,13 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="MUSA" >
     <link rel="shortcut icon" href="assets/ico/favicon.png">
-<<<<<<< HEAD
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>real estate management system</title>
-=======
-
-    <title>RYC Zamboanga Best Homes</title>
->>>>>>> b406dcb966225070b274b52a5e729f6e232613df
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -41,7 +36,6 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
   
-<<<<<<< HEAD
   <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
@@ -56,40 +50,6 @@
         <li><a href="#">SIGN IN</a></li>
       </ul>
     </nav>
-=======
-  
-  	<div id="navbar-main">
-      <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon icon-shield" style="font-size:30px; color:pink;"></span>
-          </button>
-          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:pink;"></span></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll"><b><font color="white">Home</font></b></a></li>
-			<!--<li> <a href="#about" class="smoothScroll"> <b><font color="white">About Us</font></b></a></li>-->
-			<!--<li> <a href="#services" class="smoothScroll"><b><font color="white">Services</font></b></a></li>-->
-			
-			<li> <a href="#review" class="smoothScroll"> <b><font color="white">Reviews</font></b></a></li>	
-			<li> <a href="properties.php" class="smoothScroll"><b><font color="white">Properties</font></b></a></li>
-			<li> <a href="#contact" class="smoothScroll"> <b><font color="white">Contact</font></b></a></li>
-			<li> <a href="properties.php" class="smoothScroll"><b><font color="white">Our Properties</font></b></a></li>
-			<li> <a href="#register" class="smoothScroll"><b><font color="white"> Client Registration</b></font></a></li>
-			<li> <a href="#login" class="smoothScroll"><b><font color="white">Client Login</font></b></a></li>
-			<li> <a href="agent_reg.php" class="smoothScroll"><b><font color="white" title="Register Here">agent</font></b></a></li>
-			<li> <a href="agentlogin.php" class="smoothScroll"><b><font color="white">agent Login</font></b></a></li>
-			
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-    </div>
-
-  
->>>>>>> b406dcb966225070b274b52a5e729f6e232613df
   
 		<!-- ==== HEADERWRAP ==== -->
 	    <div id="headerwrap" class="cover-background" id="home" name="home">
