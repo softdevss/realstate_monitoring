@@ -61,19 +61,19 @@
 		<!-- ==== GREYWRAP ==== -->
 		<div id="greywrap">
 			<div class="row">
-				<div class="col-lg-4 callout">
+				<div class="col-lg-4 callout callouts call">
 					<span class="icon icon-stack"></span>
 					<h2>Our Mission</h2>
 					<p class="about-title">Our mission is to provide exceptional services and customer satisfaction by fulfilling their need of residential houses. We aim to be more results oriented yet with a happy working environment. </p>
 				</div><!-- col-lg-4 -->
 					
-				<div class="col-lg-4 callout">
+				<div class="col-lg-4 callout callouts call">
 					<span class="icon icon-eye"></span>
 					<h2>Our Vision</h2>
 					<p class="about-title">By 2025 our company will be the number one real estate developer in Zamboanga City, and will not only cater residential housing but as well as engaging in the development of offices, apartments, hotels and mixed – use projects by branching out our services and creating eco friendly yet affordable service to our customers. </p>
 				</div><!-- col-lg-4 -->	
 				
-				<div class="col-lg-4 callout">
+				<div class="col-lg-4 callout callouts call">
 					<span class="icon icon-heart"></span>
 					<h2>Our Sovereignity</h2>
 					<p class="about-title">Our customers are our top priority. We continuously offer the newest design in houses, providing them options to fill in their needs. We only use high quality standard materials yet providing affordable and budget payment terms </p>
@@ -91,10 +91,12 @@
 				<div class="img-content">
 					<h3>About our company</h3>
 					<p>is a privately owned real estate development company engaged in development of purely residential houses specializing in low cost and mid cost housing projects. In addition, we also offer Lot only option to our clients. we started our company last 2016 in the Latin Capital, Zamboanga City. 
-Founded by a true blooded Zamboangeño entrepreneurs who wanted to fulfill the needs of fellow Zamboangeños of affordable but high standard quality housing. 
-Guided by our strong faith, good family values and genuine positive attitude in real estate, we are highly driven to satisfy our costumers, enriching the community by giving the dream homes they deserve
+						Founded by a true blooded Zamboangeño entrepreneurs who wanted to fulfill the needs of fellow Zamboangeños of affordable but high standard quality housing. 
+						Guided by our strong faith, good family values and genuine positive attitude in real estate, we are highly driven to satisfy our costumers, enriching the community by giving the dream homes they deserve
 </p>
+					<button class="fb-button"> See on facebook</button>
 				</div>
+			
 			</div>
 
 
@@ -111,23 +113,27 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 		<!-- ==== SERVICES ==== -->
 		<div class="container" id="services" name="services">
 			<div class="row">
-				<h2 class="centered">ONE BRAND, ONE VOICE.</h2>
+				<h2 class="centered">GOOD WORKING RELATIONSHIP</h2>
 				<hr>
 				<br>
-				<div class="col-lg-offset-2 col-lg-8">
-					<p>Employees and consumers. Two halves of a brand’s entirety, the whole of a brand’s audience. Sometimes these two halves have very different viewpoints, creating a weak spot in the brand story. Weakness tarnishes credibility. Brands that aren’t credible aren’t viable.
-					</p>
-					<p>We squash weakness by designing the whole brand story. It’s crafted around the truism held by employees and consumers to create an experience that connects from the inside out.</p>
-					<p>By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
+				<div class="col-lg-offset-2 col-lg-8 about-title">
+					<p>Our passionate people will readily assist our client inquiries guiding them to choose their perfect dream house. communication and respect are keys to our effective working relationships and we Develop positive relationships with clients we interact with.</p>
+					
+					
 				</div><!-- col-lg -->
 			</div><!-- row -->
 			
-			<div class="row">
-				<h2 class="centered">MOBILE FIRST THINKING, ALWAYS.</h2>
+			<div class="row centered about-title">
+				<h2 class="centered">WHY CHOOSE RCY REALHOMES ?</h2>
 				<hr>
-				<br>
+				<p><i class="bx bx-check"></i> We offer new designs and affordable houses  </p>
+				<p><i class="bx bx-check"></i>	Houses are located near city, markets, schools and malls </p>
+				<p><i class="bx bx-check"></i> 	Wide range of project houses to choose </p>
+				<p><i class="bx bx-check"></i>	Location wise near city  </p>
+				
+				
 				<div class="col-lg-offset-2 col-lg-8">
-					<img class="img-responsive" src="assets/img/iphone.png" alt="">
+					<img class="img-responsive" src="assets/img/house.png" alt="">
 				</div><!-- col -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -135,10 +141,10 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 
 		<!-- ==== SECTION DIVIDER2 -->
 		<section class="section-divider textdivider divider2">
-			<div class="container">
-				<h1>DESIGN IS AN INTERACTION</h1>
-				<hr>
-				<p>To develop a deeper and more meaningful connection with consumers, we believe design must invite them to take part in the conversation.</p>
+			<div class="container text-left">
+				<h1>WE BUILD TRUST</h1>
+				
+		<p>New to this industry we aim to exceed beyond our client <br> expectations by giving them only the best. <br> We value our relationship with our clients to <br> communicate honestly <br> and with excellent communication <br> customer service and attention.</p>
 			</div><!-- container -->
 		</section><!-- section -->
 
@@ -147,12 +153,12 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 centered">
-						<img class="img-responsive" src="assets/img/macbook.png" align="">
+						<img class="img-responsive" src="assets/img/macbook.png" >
 					</div>
-					<div class="col-lg-4">
-						<h2>We Are Hiring!</h2>
-						<p>Do you want to be one of use? Sure you want, because we are an awesome team!. Here we work hard every day to craft pixel perfect sites.</p>
-						<p><a class="btn btn-success">Contact Us</a></p>
+					<div class="col-lg-4 about-title">
+						<h2>We also have a monitoring application</h2>
+						<p >Do you want to be one of use? Sure you want, because we are an awesome team!. Here we work hard every day for our quality service register now !.</p>
+						<p><a class="register-btn">SIGN UP</a></p>
 					</div>					
 				</div><!-- row -->
 			</div>
@@ -214,209 +220,89 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 			<br>
 		</div><!-- /container -->
 
-		
+		<div class="containers">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">RCY REALHOMES</h3>
+          <p class="text">
+           Your dream home awaits , connect to us for business propossal and talk with us
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+			<p>   <i class='bx bx-location-plus' ></i> Fairland Building 3rd Floor, Unit# 14,Mayor Vitallano Agan Road, Camino Nuevo, Zamboanga City  
+</p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p><i class='bx bx-mail-send' ></i> zambohomesbest@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p><i class='bx bxs-phone-call' ></i> Tel #: (062) 975-6613 <br> Phone #: (Globe) 0905-345-5749	</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
 		<!-- ==== SECTION DIVIDER6 ==== -->
-		<section class="section-divider textdivider divider6">
-			<div class="container">
-				<h1>CRAFTED IN MERU, KENYA.</h1>
-				<hr>
-				<p>Address 972-60200 987,</p>
-				<p>0715096908</p>
-				<p><a class="icon icon-twitter" href="#"></a> | <a class="icon icon-facebook" href="#"></a></p>
-			</div><!-- container -->
-		</section><!-- section -->
-
-		<div class="container" id="contact" name="contact">
-			<div class="row">
-			<br>
-				<h1 class="centered">THANKS FOR VISITING US</h1>
-				<hr>
-				<br>
-				<br>
-				<div class="col-lg-4">
-					<h3>Our Contact Information</h3>
-					<p><span class="icon icon-home"></span>Address 972-60200 , MERU, KENYA<br/>
-						<span class="icon icon-phone"></span> 0715096908 <br/>
-						<span class="icon icon-mobile"></span> 0715096908 <br/>
-						<span class="icon icon-envelop"></span> <a href="#"> mtkenyarealestate.co.ke</a> <br/>
-						<span class="icon icon-twitter"></span> <a href="#">  Visit Us On Twitter</a> <br/>
-						<span class="icon icon-facebook"></span> <a href="http://www.facebook.com/mtkenyarealestate/"> Visit Us On facebook</a>
-					</p>
-				</div><!-- col -->
-				
-				<div class="col-lg-4">
-					<h3>Reach Us Now</h3>
-					<p>Send us a message now and see your dream come true</p>
-					<p>
-						<form class="form-horizontal" role="form" action="sendmessage.php" method="POST">
-							 <div class="form-group">
-						    <label for="name" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" name="name" placeholder="Enter Your Name">
-						    </div>
-						 </div>
-						     <div class="form-group">
-						    <label for="email" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="email" class="form-control" id="text1" name="email" placeholder="Enter Your Email">
-						    </div>
-						  </div>
-                              
-                               <div class="form-group">
-						    <label for="phone" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" name="phone" placeholder="Enter Your Phone Number">
-						    </div>
-						  </div>
-
-						  <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" name="message" placeholder="Your Message"></textarea>
-                                    </div>
-						
-						 
-						  <div class="form-group">
-						    <div class="col-lg-10">
-						      <button type="submit" name="submit" class="btn btn-success">SEND</button>
-						    </div>
-						  </div>
-
-					   </form><!-- form -->
-					</p>
-				</div><!-- col -->
-				
-				<div class="col-lg-4">
-					<h3>We Are Always At Your Service</h3>
-					<p>At Mt. Kenya Real Estate Developers Ltd. , We are committed to serve you better.</p>
-				</div><!-- col -->
-
-			</div><!-- row -->
-
-
 		
-		</div><!-- container -->
-
-		
-		<div class="container" id="register" name="register">
-			<div class="row">
-			<br>
-				<h1 class="centered">REGISTER NOW</h1>
-				<hr>
-				<br>
-				<br>
-				
-				<div class="">
-					<center><h3>Register With Us Now</h3>
-					<p>We value our clients and we offer the best services regarding real estate properties</p></center>
-					<p>
-
-                       <center>
-						<form class="" role="form" action="register.php" method="POST">
-							<div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Enter Your Full Name" required="required" name="fname">
-						    </div>
-						    <br>
-						    <br>
-						    <div class="col-lg-10">
-						      <input type="number" class="form-control" id="text1" placeholder="Enter Your Phone Number" required="required" name="phone">
-						    </div>
-						    <br>
-						    <br>
-						    <div class="col-lg-10">
-						      <input type="email" class="form-control" id="text1" placeholder="Enter Your Email Address" required="required" name="email">
-						    </div>
-						    <br>
-						    <br>
-						     <div class="col-lg-10">
-						    <tr>
-                            <td>Select Your Gender:</td>
-                            <td>
-                                <select name="gender" required="required">
-                                    <option> Select Gender </option>
-                                    <option> Male </option>
-                                    <option> Female </option>
-                                </select>
-                            </td>
-                        </tr>
-                    </div>
-                            <br>
-						    <br>
-                             <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Enter Username You Wish To Use" required="required" name="username">
-						    </div>
-						    <br>
-						    <br>
-						     <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Enter Your Location" required="required" name="location">
-						    </div>
-						    <br>
-						    <br>
-						     <div class="col-lg-10">
-						      <input type="password" class="form-control" id="text1" placeholder="Enter Password You Will Use For Login" required="required" name="password">
-						    </div>
-                            <br>
-						    <br>
-                        </tr>
-						 
-						  <div class="form-group">
-						    <div class="col-lg-10">
-						      <button type="submit" name="submit" class="btn btn-success">REGISTER</button>
-						    </div>
-						  </div>
-					   </form><!-- form -->
-						
-					</p>
-				</div><!-- col -->
-		
-			</div><!-- row -->
-		
-		</div><!-- container -->
-
-<div class="container" id="login" name="login">
-			<div class="row">
-			<br>
-				<h1 class="centered">LOGIN NOW</h1>
-				<hr>
-				<br>
-				<br>
-				
-				<div class="">
-					<center><h3><font size="10px;"><b>Client Login</b></font></h3>
-					<p>Login and Book Your Preferred Property Now</p></center>
-					<p>
-						<form class="" role="form" action="account.php" method="POST">
-						  
-						  <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Enter Username" name="username">
-						    </div>
-						    <br>
-						    <br>
-						     <div class="col-lg-10">
-						      <input type="password" class="form-control" id="text1" placeholder="Enter Password" name="password">
-						    </div>
-						    <br>
-						    <br>
-						  <div class="form-group">
-						    <div class="col-lg-10">
-						      <center><button type="submit" name="log" class="btn btn-success">LOGIN</button></center>
-						    </div>
-						    <center><a href="forgot_pass.php"><u>Forgot Password?</u></a></center>
-						  </div>
-					   </form><!-- form -->
-					</p>
-				</div><!-- col -->
-				
-				<div class="col-lg-4">
-					<h3>Thank You</h3>
-					<p>Thankyou for having an interest in Mt. Kenya Real Estate and Developers Ltd. Always keep in touch.</p>
-				</div><!-- col -->
-
-			</div><!-- row -->
-		
-		</div><!-- container -->
 
 		<div id="footerwrap">
 			<div class="container">
-				<h4>Created With Love by <a href="https://www.facebook.com/blairt94/">Tony Okoth</a> - Copyright 2018</h4>
+				<h4>Created  and power by <a href="https://www.facebook.com/blairt94/">Software devs</a> - Copyright 2021</h4>
 			</div>
 			<li> <a href="adminlogin.php" class="smoothScroll"><font color="red"><b><font color="white">Administrator</font></b></font></a></li>
 		</div>
@@ -430,6 +316,7 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 	<script type="text/javascript" src="assets/js/retina.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
 	
   </body>
 </html>
