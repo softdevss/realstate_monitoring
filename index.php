@@ -142,7 +142,7 @@
 									<div class="package-name">	Exemptional customer service </div>
 									<ul class="features">
 										<li>
-										<span class="list-name">In-House Sales Support</span>
+										<span class="list-name">In House Sales Support</span>
 										<span class="icon check"><i class="fas fa-check"></i></span>
 										</li>
 										<li>
