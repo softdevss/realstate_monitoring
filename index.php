@@ -120,30 +120,117 @@
 			</div><!-- container -->
 		</section><!-- section -->
 
-		<!-- ==== SERVICES ==== -->
-		<div class="container" id="services" name="services">
-			<div class="row">
-				<h2 class="centered">GOOD WORKING RELATIONSHIP</h2>
-				<hr>
-				<br>
-				<div class="col-lg-offset-2 col-lg-8 about-title">
-					<p>Our passionate people will readily assist our client inquiries guiding them to choose their perfect dream house. communication and respect are keys to our effective working relationships and we Develop positive relationships with clients we interact with.</p>
-					
-					
-				</div><!-- col-lg -->
-			</div><!-- row -->
-			
-			<div class="row centered about-title">
-				<h2 class="centered">WHY CHOOSE RCY REALHOMES ?</h2>
-				<hr>
-				<p><i class="bx bx-check"></i> We offer new designs and affordable houses  </p>
-				<p><i class="bx bx-check"></i>	Houses are located near city, markets, schools and malls </p>
-				<p><i class="bx bx-check"></i> 	Wide range of project houses to choose </p>
-				<p><i class="bx bx-check"></i>	Location wise near city  </p>
-				
-				
-				<div class="col-lg-offset-2 col-lg-8">
-					<img class="img-responsive" src="assets/img/house.png" alt="">
+			<article class="services">
+						<div class="services-content">
+							<h3>GOOD WORKING RELATIONSHIP</h3>
+							<P>Our passionate people will readily assist our client inquiries guiding them to choose their perfect dream house. <br> Trust, teamwork, communication and respect are keys to our effective working relationships and we Develop positive relationships with clients we interact with.</P>
+						</div>
+						
+			</article>
+
+								<div class="wrapper-body">
+								<div class="wrapper">
+									<div class="table basic">
+									<div class="price-section">
+										<div class="price-area">
+										<div class="inner-area">
+										
+											<span class="price">01</span>
+										</div>
+										</div>
+									</div>
+									<div class="package-name">	Exemptional customer service </div>
+									<ul class="features">
+										<li>
+										<span class="list-name">In-House Sales Support</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Monthly Construction Updates </span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Dedicated Customer Care Team</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Lifetime Template Updates</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+                    
+										</li>
+									</ul>
+                  
+									<div class="btn"><button>GET STARTED</button></div>
+									</div>
+									<div class="table premium">
+									<div class="ribbon"><span>THE BEST</span></div>
+									<div class="price-section">
+										<div class="price-area">
+										<div class="inner-area">
+											
+											<span class="price">02</span>
+										</div>
+										</div>
+									</div>
+									<div class="package-name">	Affordable houses  </div>
+									<ul class="features">
+										<li>
+										<span class="list-name">Wide range of project <br> houses to choose</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name"> Location wise near city</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										
+										</li>
+										<li>
+										<span class="list-name">Sta. Maria, Guiwan, San <br> Roque and Mercedes </span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+									</ul>
+									<div class="btn"><button>GET STARTED</button></div>
+									</div>
+									<div class="table ultimate">
+									<div class="price-section">
+										<div class="price-area">
+										<div class="inner-area">
+										
+											<span class="price">03</span>
+										</div>
+										</div>
+									</div>
+									<div class="package-name">Budget friendly options </div>
+									<ul class="features">
+										<li>
+										<span class="list-name">Affordable payment terms</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Offers In-house financing</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Discounts for deferred cash <br> and spot cash payment</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Zero Interest equities for 24mos</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+									</ul>
+									<div class="btn"><button>GET STARTED</button></div>
+									</div>
+								</div>
+								</div>
+
+
+
+
+  <div class="row centered about-title ">
+				<div class="col-lg-offset-2 col-lg-12">
+					<img class="img-responsive img-fluid" src="assets/img/house.png" alt="">
 				</div><!-- col -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -163,11 +250,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 centered">
-						<img class="img-responsive" src="assets/img/macbook.png" >
+						<img class="img-responsive" src="assets/img/macbooks.png" >
 					</div>
 					<div class="col-lg-4 about-title">
-						<h2>We also have a monitoring application</h2>
-						<p >Do you want to be one of use? Sure you want, because we are an awesome team!. Here we work hard every day for our quality service register now !.</p>
+						<h2>We also have a monitoring application for your accounts</h2>
+						<p >Do you want to be one of use? Sure you want, because we are an awesome team! Here we work hard every day for our quality service register now !.</p>
 						<p><a class="register-btn">SIGN UP</a></p>
 					</div>					
 				</div><!-- row -->
