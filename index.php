@@ -225,7 +225,7 @@
       <img src="img/shape.png" class="square" alt="" />
       <div class="form">
         <div class="contact-info">
-          <h3 class="title">RCY REALHOMES</h3>
+          <h3 class="title">RCY REALHOMES W</h3>
           <p class="text">
            Your dream home awaits , connect to us for business propossal and talk with us
           </p>
