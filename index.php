@@ -16,6 +16,7 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link href="css/animate-custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/admin.css">
 
 	<!---- font icons -->
 	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -57,16 +58,94 @@
         <li><a href="#">LANDS</a></li>
         <li><a href="#">Reviews</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">SIGN IN</a></li>
+        <li><a href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a></li>
       </ul>
     </nav>
+ 
+<!-- Modal === --->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+<div class="modal-dialog">
+				<div class="modal-content">
+				
+					<div class="form-box">
+            <div>
+                  <img src="logo.jpg">
+            </div>
+          
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="client()">Client Login</button>
+                <button type="button" class="toggle-btn" onclick="admin()">Admin Login</button>
+                <button type="button" class="toggle-btn" onclick="agent()">Agent Login</button>
+             
+            </div>
+            <form id="client" class="input-group">
+                <input type="text" class="input-field" placeholder="Client Username"
+                required>
+                <input type="text" class="input-field" placeholder="Client Password"
+                required>
+                <button type="submit" class="submit-btn" style="color:white">Client Sign In</button>
+            </form>
+               <form id="admin" class="input-group">
+                <input type="text" class="input-field" placeholder="Admin Username"
+                required>
+                <input type="text" class="input-field" placeholder="Admin Password"
+                required>
+                <button type="submit" class="submit-btn"style="color:white">Admin Sign In</button>
+            </form>
+            <form id="agent" class="input-group">
+                <input type="text" class="input-field" placeholder="Agent Username"
+                required>
+                <input type="text" class="input-field" placeholder="Agent Password"
+                required>
+                <button type="submit" class="submit-btn"style="color:white">Agent Sign In</button>
+            </form>
+        </div>
+		
+				</div>
+			</div>
+		</div>
+		<script>
+        var x = document.getElementById("client");
+        var y = document.getElementById("admin");
+        var w = document.getElementById("agent");
+        var z = document.getElementById("btn");
+
+        function admin(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            w.style.left="-400px"
+            z.style.left = "110px";
+            y.style.color="white"
+        }
+         function client(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            w.style.left = "450px"
+            z.style.left = "0px";
+            x.style.color="white"
+        }
+         function agent(){
+            x.style.left = "-800px";
+            y.style.left="-450px"
+            w.style.left = "50px";
+            z.style.left = "210px";
+        }
+        
+    </script>
+  </div>
+</div>
   
 		<!-- ==== HEADERWRAP ==== -->
 	    <div id="headerwrap" class="cover-background" id="home" name="home">
 				<div class="header-content">
 					<h3>Dream <br><span>Home</span> is <br>Right Here</h3>
 				</div>
-	    </div><!-- /headerwrap -->
+	    </div><!-- /headerwrap --
 
 		<!-- ==== GREYWRAP ==== -->
 		<div id="greywrap">
@@ -490,6 +569,8 @@
 			</div>
 			<li> <a href="adminlogin.php" class="smoothScroll"><font color="red"><b><font color="white">Administrator</font></b></font></a></li>
 		</div>
+    <!-- Modal === --->
+    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
