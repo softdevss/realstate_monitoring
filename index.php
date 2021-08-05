@@ -19,22 +19,22 @@
     <link rel="stylesheet" href="css/admin.css">
 
 	<!---- font icons -->
-	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-	<link href="css/stylingsheet.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="css/stylingsheet.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     
     <script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+	  <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
 
 
 	<!---Client Review-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 
@@ -329,11 +329,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 centered">
-						<img class="img-responsive" src="assets/img/macbooks.png" >
+						<img class="img-responsive img-fluid" src="assets/img/macbooks.png" >
 					</div>
 					<div class="col-lg-4 about-title">
 						<h2>We also have a monitoring application for your accounts</h2>
-						<p >Do you want to be one of use? Sure you want, because we are an awesome team! Here we work hard every day for our quality service register now !.</p>
+						<p class="text-justify">Do you want to be one of use? Sure you want, because we are an awesome team. Here we work hard every day for our quality service register now</p>
 						<p><a class="register-btn">SIGN UP</a></p>
 					</div>					
 				</div><!-- row -->
@@ -485,7 +485,7 @@
 
 		<div class="containers">
       <span class="big-circle"></span>
-      <img src="img/shape.png" class="square" alt="" />
+
       <div class="form">
         <div class="contact-info">
           <h3 class="title">RCY REALHOMES W</h3>
@@ -495,16 +495,16 @@
 
           <div class="info">
             <div class="information">
-              <img src="img/location.png" class="icon" alt="" />
-			<p>   <i class='bx bx-location-plus' ></i> Fairland Building 3rd Floor, Unit# 14,Mayor Vitallano Agan Road, Camino Nuevo, Zamboanga City  
+            
+			<p>   <i class='bx bx-location-plus' ></i> Fairland Building 3rd Floor, Unit# 14,Mayor Vitallano Agan Road  , Camino Nuevo, Zamboanga City  
 </p>
             </div>
             <div class="information">
-              <img src="img/email.png" class="icon" alt="" />
+            
               <p><i class='bx bx-mail-send' ></i> zambohomesbest@gmail.com</p>
             </div>
             <div class="information">
-              <img src="img/phone.png" class="icon" alt="" />
+            
               <p><i class='bx bxs-phone-call' ></i> Tel #: (062) 975-6613 <br> Phone #: (Globe) 0905-345-5749	</p>
             </div>
           </div>
@@ -563,12 +563,22 @@
 		<!-- ==== SECTION DIVIDER6 ==== -->
 		
 
-		<div id="footerwrap">
-			<div class="container">
-				<h4>Created  and power by <a href="https://www.facebook.com/blairt94/">Software devs</a> - Copyright 2021</h4>
-			</div>
-			<li> <a href="adminlogin.php" class="smoothScroll"><font color="red"><b><font color="white">Administrator</font></b></font></a></li>
-		</div>
+    <footer>
+        <div class="footer-content">
+            <h3>RCY REAL HOMES</h3>
+            <p>A copyright disclaimer is a statement that claims ownership of original content, or discloses your use of copyrighted materials </p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 RCYHOMES. powered by <span>Software devs PH</span></p>
+        </div>
+    </footer>
     <!-- Modal === --->
     
 

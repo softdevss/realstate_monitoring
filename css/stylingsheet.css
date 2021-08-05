@@ -5,8 +5,11 @@
     border: 0;
     padding: 0;
     margin: 0;
+    
 }
-
+body{
+  overflow-x: hidden;
+}
 .background-nav{
     background-color: #ea7dc7;
     border:none;
@@ -73,8 +76,8 @@ a.active,a:hover{
 }
 @media (max-width: 952px){
   label.logo{
-    font-size: 20px;
-    padding-left: 50px;
+    font-size: 15px;
+    padding-left: 30px;
   }
   nav ul li a{
     font-size: 16px;
@@ -86,13 +89,15 @@ a.active,a:hover{
   }
   ul{
     position: fixed;
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    height: 2000px;
     background: #2c3e50;
     top: 80px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
+    transition: all .5s ease;
+    z-index: 999;
+    
   }
   nav ul li{
     display: block;
@@ -447,16 +452,18 @@ textarea.input {
   color: #333;
   margin: 1.5rem 0 2rem 0;
   font-family: 'poppins';
-
+  font-size: 1.3rem;
 }
 
 .information {
   display: flex;
-  color: rgb(54, 54, 54);
+  color: rgb(122, 122, 122);
   margin: 0.7rem 0;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: 'poppins';
+  text-align: justify;
+  
 }
 
 .icon {
@@ -680,7 +687,7 @@ margin: 2rem;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 .wrapper .table{
   background: #fff;
@@ -688,6 +695,7 @@ margin: 2rem;
   padding: 30px 30px;
   position: relative;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  margin: 1rem;
 }
 .table .price-section{
   display: flex;
@@ -909,4 +917,85 @@ margin: 2rem;
   min-height: 100vh;
   padding: 20px;
   background: #f5b5fc;
+  max-width: 100%;
+}
+
+.img-fluid{
+width: 500px;
+max-width: 100%;
+}
+.about-title p{
+  color: #575757;
+  font-family: sans-serif;
+}
+
+footer{
+ 
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  letter-spacing: 2px;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 12px;
+  color: #868686;
+  font-family: 'poppins';
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
 }
