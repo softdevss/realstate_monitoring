@@ -414,11 +414,11 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.397) 0%, rgba(0, 0, 0, 0.356) 100%), url('../img/internal.jpg')
+	background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.397) 0%, rgba(0, 0, 0, 0.356) 100%), url('../img/internal.jpg');
 }
 
 .divider2 {
-	background-image: url('../img/header_bg.jpg')
+	background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.541) 0%, rgba(0, 0, 0, 0.486) 100%), url('../img/TRUST.jpg');
 }
 
 .divider3 {
@@ -434,7 +434,16 @@ a:after {
 	background-image: url('../img/bg/divider6.jpg')
 }
 
-
+.contactus{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/bgg.jpg);
+  }
 
 /* ==========================================================================
    Services Section

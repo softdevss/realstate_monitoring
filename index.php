@@ -6,8 +6,13 @@
     <meta name="description" content="">
     <meta name="author" content="MUSA" >
     <link rel="shortcut icon" href="assets/ico/favicon.png">
+<<<<<<< HEAD
 
     <title>RYC Zamboanga Best Homes</title>
+=======
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>RCY Real Homes</title>
+>>>>>>> 8f9b26d3a2a9f24eac5b38a28c6c1aba8a7282cc
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -16,17 +21,28 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link href="css/animate-custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/admin.css">
 
 	<!---- font icons -->
-	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-	<link href="css/stylingsheet.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="css/stylingsheet.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     
     <script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    
+	  <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+
+	<!---Client Review-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -36,6 +52,7 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
   
+<<<<<<< HEAD
   
   	<div id="navbar-main">
       <!-- Fixed navbar -->
@@ -46,52 +63,128 @@
             <span class="icon icon-shield" style="font-size:30px; color:pink;"></span>
           </button>
           <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:pink;"></span></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll"><b><font color="white">Home</font></b></a></li>
-			<!--<li> <a href="#about" class="smoothScroll"> <b><font color="white">About Us</font></b></a></li>-->
-			<!--<li> <a href="#services" class="smoothScroll"><b><font color="white">Services</font></b></a></li>-->
-			
-			<li> <a href="#review" class="smoothScroll"> <b><font color="white">Reviews</font></b></a></li>	
-			<li> <a href="properties.php" class="smoothScroll"><b><font color="white">Properties</font></b></a></li>
-			<li> <a href="#contact" class="smoothScroll"> <b><font color="white">Contact</font></b></a></li>
-			<li> <a href="properties.php" class="smoothScroll"><b><font color="white">Our Properties</font></b></a></li>
-			<li> <a href="#register" class="smoothScroll"><b><font color="white"> Client Registration</b></font></a></li>
-			<li> <a href="#login" class="smoothScroll"><b><font color="white">Client Login</font></b></a></li>
-			<li> <a href="agent_reg.php" class="smoothScroll"><b><font color="white" title="Register Here">agent</font></b></a></li>
-			<li> <a href="agentlogin.php" class="smoothScroll"><b><font color="white">agent Login</font></b></a></li>
-			
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-    </div>
+=======
+  <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">RCY REAL HOMES</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">LANDS</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a></li>
+      </ul>
+    </nav>
+ 
+<!-- Modal === --->
 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+<div class="modal-dialog">
+				<div class="modal-content">
+				
+					<div class="form-box">
+            <div>
+                  <img src="logo.jpg">
+            </div>
+          
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="client()">Client Login</button>
+                <button type="button" class="toggle-btn" onclick="admin()">Admin Login</button>
+                <button type="button" class="toggle-btn" onclick="agent()">Agent Login</button>
+             
+            </div>
+            <form id="client" class="input-group">
+                <input type="text" class="input-field" placeholder="Client Username"
+                required>
+                <input type="text" class="input-field" placeholder="Client Password"
+                required>
+                <button type="submit" class="submit-btn" style="color:white">Client Sign In</button>
+            </form>
+               <form id="admin" class="input-group">
+                <input type="text" class="input-field" placeholder="Admin Username"
+                required>
+                <input type="text" class="input-field" placeholder="Admin Password"
+                required>
+                <button type="submit" class="submit-btn"style="color:white">Admin Sign In</button>
+            </form>
+            <form id="agent" class="input-group">
+                <input type="text" class="input-field" placeholder="Agent Username"
+                required>
+                <input type="text" class="input-field" placeholder="Agent Password"
+                required>
+                <button type="submit" class="submit-btn"style="color:white">Agent Sign In</button>
+            </form>
+>>>>>>> 8f9b26d3a2a9f24eac5b38a28c6c1aba8a7282cc
+        </div>
+		
+				</div>
+			</div>
+		</div>
+		<script>
+        var x = document.getElementById("client");
+        var y = document.getElementById("admin");
+        var w = document.getElementById("agent");
+        var z = document.getElementById("btn");
+
+<<<<<<< HEAD
   
+=======
+        function admin(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            w.style.left="-400px"
+            z.style.left = "110px";
+            y.style.color="white"
+        }
+         function client(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            w.style.left = "450px"
+            z.style.left = "0px";
+            x.style.color="white"
+        }
+         function agent(){
+            x.style.left = "-800px";
+            y.style.left="-450px"
+            w.style.left = "50px";
+            z.style.left = "210px";
+        }
+        
+    </script>
+  </div>
+</div>
+>>>>>>> 8f9b26d3a2a9f24eac5b38a28c6c1aba8a7282cc
   
 		<!-- ==== HEADERWRAP ==== -->
 	    <div id="headerwrap" class="cover-background" id="home" name="home">
 				<div class="header-content">
 					<h3>Dream <br><span>Home</span> is <br>Right Here</h3>
 				</div>
-	    </div><!-- /headerwrap -->
+	    </div><!-- /headerwrap --
 
 		<!-- ==== GREYWRAP ==== -->
 		<div id="greywrap">
 			<div class="row">
-				<div class="col-lg-4 callout">
+				<div class="col-lg-4 callout callouts call">
 					<span class="icon icon-stack"></span>
 					<h2>Our Mission</h2>
 					<p class="about-title">Our mission is to provide exceptional services and customer satisfaction by fulfilling their need of residential houses. We aim to be more results oriented yet with a happy working environment. </p>
 				</div><!-- col-lg-4 -->
 					
-				<div class="col-lg-4 callout">
+				<div class="col-lg-4 callout callouts call">
 					<span class="icon icon-eye"></span>
 					<h2>Our Vision</h2>
 					<p class="about-title">By 2025 our company will be the number one real estate developer in Zamboanga City, and will not only cater residential housing but as well as engaging in the development of offices, apartments, hotels and mixed – use projects by branching out our services and creating eco friendly yet affordable service to our customers. </p>
 				</div><!-- col-lg-4 -->	
 				
-				<div class="col-lg-4 callout">
+				<div class="col-lg-4 callout callouts call">
 					<span class="icon icon-heart"></span>
 					<h2>Our Sovereignity</h2>
 					<p class="about-title">Our customers are our top priority. We continuously offer the newest design in houses, providing them options to fill in their needs. We only use high quality standard materials yet providing affordable and budget payment terms </p>
@@ -109,10 +202,12 @@
 				<div class="img-content">
 					<h3>About our company</h3>
 					<p>is a privately owned real estate development company engaged in development of purely residential houses specializing in low cost and mid cost housing projects. In addition, we also offer Lot only option to our clients. we started our company last 2016 in the Latin Capital, Zamboanga City. 
-Founded by a true blooded Zamboangeño entrepreneurs who wanted to fulfill the needs of fellow Zamboangeños of affordable but high standard quality housing. 
-Guided by our strong faith, good family values and genuine positive attitude in real estate, we are highly driven to satisfy our costumers, enriching the community by giving the dream homes they deserve
+						Founded by a true blooded Zamboangeño entrepreneurs who wanted to fulfill the needs of fellow Zamboangeños of affordable but high standard quality housing. 
+						Guided by our strong faith, good family values and genuine positive attitude in real estate, we are highly driven to satisfy our costumers, enriching the community by giving the dream homes they deserve
 </p>
+					<button class="fb-button"> See on facebook</button>
 				</div>
+			
 			</div>
 
 
@@ -126,26 +221,117 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 			</div><!-- container -->
 		</section><!-- section -->
 
-		<!-- ==== SERVICES ==== -->
-		<div class="container" id="services" name="services">
-			<div class="row">
-				<h2 class="centered">ONE BRAND, ONE VOICE.</h2>
-				<hr>
-				<br>
-				<div class="col-lg-offset-2 col-lg-8">
-					<p>Employees and consumers. Two halves of a brand’s entirety, the whole of a brand’s audience. Sometimes these two halves have very different viewpoints, creating a weak spot in the brand story. Weakness tarnishes credibility. Brands that aren’t credible aren’t viable.
-					</p>
-					<p>We squash weakness by designing the whole brand story. It’s crafted around the truism held by employees and consumers to create an experience that connects from the inside out.</p>
-					<p>By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
-				</div><!-- col-lg -->
-			</div><!-- row -->
-			
-			<div class="row">
-				<h2 class="centered">MOBILE FIRST THINKING, ALWAYS.</h2>
-				<hr>
-				<br>
-				<div class="col-lg-offset-2 col-lg-8">
-					<img class="img-responsive" src="assets/img/iphone.png" alt="">
+			<article class="services">
+						<div class="services-content">
+							<h3>GOOD WORKING RELATIONSHIP</h3>
+							<P>Our passionate people will readily assist our client inquiries guiding them to choose their perfect dream house. <br> Trust, teamwork, communication and respect are keys to our effective working relationships and we Develop positive relationships with clients we interact with.</P>
+						</div>
+						
+			</article>
+
+								<div class="wrapper-body">
+								<div class="wrapper">
+									<div class="table basic">
+									<div class="price-section">
+										<div class="price-area">
+										<div class="inner-area">
+										
+											<span class="price">01</span>
+										</div>
+										</div>
+									</div>
+									<div class="package-name">	Exemptional customer service </div>
+									<ul class="features">
+										<li>
+										<span class="list-name">In House Sales Support</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Monthly Construction Updates </span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Dedicated Customer Care Team</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Lifetime Template Updates</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+                    
+										</li>
+									</ul>
+                  
+									<div class="btn"><button>GET STARTED</button></div>
+									</div>
+									<div class="table premium">
+									<div class="ribbon"><span>THE BEST</span></div>
+									<div class="price-section">
+										<div class="price-area">
+										<div class="inner-area">
+											
+											<span class="price">02</span>
+										</div>
+										</div>
+									</div>
+									<div class="package-name">	Affordable houses  </div>
+									<ul class="features">
+										<li>
+										<span class="list-name">Wide range of project <br> houses to choose</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name"> Location wise near city</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										
+										</li>
+										<li>
+										<span class="list-name">Sta. Maria, Guiwan, San <br> Roque and Mercedes </span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+									</ul>
+									<div class="btn"><button>GET STARTED</button></div>
+									</div>
+									<div class="table ultimate">
+									<div class="price-section">
+										<div class="price-area">
+										<div class="inner-area">
+										
+											<span class="price">03</span>
+										</div>
+										</div>
+									</div>
+									<div class="package-name">Budget friendly options </div>
+									<ul class="features">
+										<li>
+										<span class="list-name">Affordable payment terms</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Offers In-house financing</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Discounts for deferred cash <br> and spot cash payment</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+										<li>
+										<span class="list-name">Zero Interest equities for 24mos</span>
+										<span class="icon check"><i class="fas fa-check"></i></span>
+										</li>
+									</ul>
+									<div class="btn"><button>GET STARTED</button></div>
+									</div>
+								</div>
+								</div>
+
+
+
+
+  <div class="row centered about-title ">
+				<div class="col-lg-offset-2 col-lg-12">
+					<img class="img-responsive img-fluid" src="assets/img/house.png" alt="">
 				</div><!-- col -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -153,10 +339,10 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 
 		<!-- ==== SECTION DIVIDER2 -->
 		<section class="section-divider textdivider divider2">
-			<div class="container">
-				<h1>DESIGN IS AN INTERACTION</h1>
-				<hr>
-				<p>To develop a deeper and more meaningful connection with consumers, we believe design must invite them to take part in the conversation.</p>
+			<div class="container text-left">
+				<h1>WE BUILD TRUST</h1>
+				
+		<p>New to this industry we aim to exceed beyond our client <br> expectations by giving them only the best. <br> We value our relationship with our clients to <br> communicate honestly <br> and with excellent communication <br> customer service and attention.</p>
 			</div><!-- container -->
 		</section><!-- section -->
 
@@ -165,12 +351,12 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 centered">
-						<img class="img-responsive" src="assets/img/macbook.png" align="">
+						<img class="img-responsive img-fluid" src="assets/img/macbooks.png" >
 					</div>
-					<div class="col-lg-4">
-						<h2>We Are Hiring!</h2>
-						<p>Do you want to be one of use? Sure you want, because we are an awesome team!. Here we work hard every day to craft pixel perfect sites.</p>
-						<p><a class="btn btn-success">Contact Us</a></p>
+					<div class="col-lg-4 about-title">
+						<h2>We also have a monitoring application for your accounts</h2>
+						<p class="text-justify">Do you want to be one of use? Sure you want, because we are an awesome team. Here we work hard every day for our quality service register now</p>
+						<p><a class="register-btn">SIGN UP</a></p>
 					</div>					
 				</div><!-- row -->
 			</div>
@@ -185,259 +371,238 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 		
 		
 		<!-- ==== BLOG ==== -->
-		<div class="container" id="testimonial" name="testimonial">
-		<br>
-			<div class="row">
+		<div class="container">
+		
 				<br>
-				<h1 class="centered">WE ARE STORYTELLERS</h1>
+				<h1 class="centered">CLIENT REVIEWS</h1>
 				<hr>
 				<br>
-				<br>
-			</div><!-- /row -->
-			
-			<div class="row">
-				<div class="col-lg-6 blog-bg">
-					<div class="col-lg-4 centered">
-					<br>
-						<p><img class="img img-circle" src="assets/img/team/team04.jpg" width="60px" height="60px"></p>
-						<h4>Jaye Smith</h4>
-						<h5>Published Aug 30.</h5>
-					</div>
-					<div class="col-lg-8 blog-content">
-						<h2>We Define Success</h2>
-						<p>Armed with insight, we embark on designing the right brand experience that engages the audience. It encompasses both the strategic direction and creative execution that solves a business problem and brings the brand to life.</p>
-						<p>In the create phase, the big idea is unleashed to the world through different media touchpoints. This is when we watch the audience fall in love all over again with our client’s brand.</p>
-						<p><a href="#" class="icon icon-link"> Read More</a></p>
-						<br>
-					</div>
-				</div><!-- /col -->
-				
-				<div class="col-lg-6 blog-bg">
-					<div class="col-lg-4 centered">
-					<br>
-						<p><img class="img img-circle" src="assets/img/team/team03.jpg" width="60px" height="60px"></p>
-						<h4>Michele Lampa</h4>
-						<h5>Published Aug 28.</h5>
-					</div>
-					<div class="col-lg-8 blog-content">
-						<h2>A Beautiful Story</h2>
-						<p>Armed with insight, we embark on designing the right brand experience that engages the audience. It encompasses both the strategic direction and creative execution that solves a business problem and brings the brand to life.</p>
-						<p>In the create phase, the big idea is unleashed to the world through different media touchpoints. This is when we watch the audience fall in love all over again with our client’s brand.</p>
-						<p><a href="#" class="icon icon-link"> Read More</a></p>
-						<br>
-					</div>
-				</div><!-- /col -->
-			</div><!-- /row -->
-			<br>
-			<br>
-		</div><!-- /container -->
-
 		
+		<div class="card">
+    		<div class="card-header"></div>
+    		<div class="card-body">
+    			<div class="row">
+    				<div class="col-sm-4 text-center">
+    					<h1 class="text-warning mt-4 mb-4">
+    						<b><span id="average_rating">0.0</span> / 5</b>
+    					</h1>
+    					<div class="mb-3">
+    						<i class="fas fa-star star-light mr-1 main_star"></i>
+                            <i class="fas fa-star star-light mr-1 main_star"></i>
+                            <i class="fas fa-star star-light mr-1 main_star"></i>
+                            <i class="fas fa-star star-light mr-1 main_star"></i>
+                            <i class="fas fa-star star-light mr-1 main_star"></i>
+	    				</div>
+    					<h3><span id="total_review">0</span> Review</h3>
+    				</div>
+    				<div class="col-sm-4">
+    					<p>
+                            <div class="progress-label-left"><b>5</b> <i class="fas fa-star text-warning"></i></div>
+
+                            <div class="progress-label-right">(<span id="total_five_star_review">0</span>)</div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="five_star_progress"></div>
+                            </div>
+                        </p>
+    					<p>
+                            <div class="progress-label-left"><b>4</b> <i class="fas fa-star text-warning"></i></div>
+                            
+                            <div class="progress-label-right">(<span id="total_four_star_review">0</span>)</div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="four_star_progress"></div>
+                            </div>               
+                        </p>
+    					<p>
+                            <div class="progress-label-left"><b>3</b> <i class="fas fa-star text-warning"></i></div>
+                            
+                            <div class="progress-label-right">(<span id="total_three_star_review">0</span>)</div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="three_star_progress"></div>
+                            </div>               
+                        </p>
+    					<p>
+                            <div class="progress-label-left"><b>2</b> <i class="fas fa-star text-warning"></i></div>
+                            
+                            <div class="progress-label-right">(<span id="total_two_star_review">0</span>)</div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="two_star_progress"></div>
+                            </div>               
+                        </p>
+    					<p>
+                            <div class="progress-label-left"><b>1</b> <i class="fas fa-star text-warning"></i></div>
+                            
+                            <div class="progress-label-right">(<span id="total_one_star_review">0</span>)</div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="one_star_progress"></div>
+                            </div>               
+                        </p>
+    				</div>
+    				<div class="col-sm-4 text-center">
+    					<h3 class="mt-4 mb-3">Write Review Here</h3>
+    					<button type="button" name="add_review" id="add_review" class="btn btn-primary">Review</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="mt-5" id="review_content"></div>
+    </div>
+	</body>
+</html>
+
+<div id="review_modal" class="modal" tabindex="-1" role="dialog">
+  	<div class="modal-dialog" role="document">
+    	<div class="modal-content">
+	      	<div class="modal-header">
+	        	<h5 class="modal-title">Submit Review</h5>
+	        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          		<span aria-hidden="true">&times;</span>
+	        	</button>
+	      	</div>
+	      	<div class="modal-body">
+	      		<h4 class="text-center mt-2 mb-4">
+	        		<i class="fas fa-star star-light submit_star mr-1" id="submit_star_1" data-rating="1"></i>
+                    <i class="fas fa-star star-light submit_star mr-1" id="submit_star_2" data-rating="2"></i>
+                    <i class="fas fa-star star-light submit_star mr-1" id="submit_star_3" data-rating="3"></i>
+                    <i class="fas fa-star star-light submit_star mr-1" id="submit_star_4" data-rating="4"></i>
+                    <i class="fas fa-star star-light submit_star mr-1" id="submit_star_5" data-rating="5"></i>
+	        	</h4>
+	        	<div class="form-group">
+	        		<input type="text" name="user_name" id="user_name" class="form-control" placeholder="Enter Your Name" />
+	        	</div>
+	        	<div class="form-group">
+	        		<textarea name="user_review" id="user_review" class="form-control" placeholder="Type Review Here"></textarea>
+	        	</div>
+	        	<div class="form-group text-center mt-4">
+	        		<button type="button" class="btn btn-primary" id="save_review">Submit</button>
+	        	</div>
+	      	</div>
+    	</div>
+  	</div>
+</div>
+
+
+<style>
+.progress-label-left
+{
+    float: left;
+    margin-right: 0.5em;
+    line-height: 1em;
+}
+.progress-label-right
+{
+    float: right;
+    margin-left: 0.3em;
+    line-height: 1em;
+}
+.star-light
+{
+    color:#e9ecef;
+}
+</style>
+
+<br>
+<br>
+
+
+
+		<div class="containers">
+      <span class="big-circle"></span>
+
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">RCY REALHOMES W</h3>
+          <p class="text">
+           Your dream home awaits , connect to us for business propossal and talk with us
+          </p>
+
+          <div class="info">
+            <div class="information">
+            
+			<p>   <i class='bx bx-location-plus' ></i> Fairland Building 3rd Floor, Unit# 14,Mayor Vitallano Agan Road  , Camino Nuevo, Zamboanga City  
+</p>
+            </div>
+            <div class="information">
+            
+              <p><i class='bx bx-mail-send' ></i> zambohomesbest@gmail.com</p>
+            </div>
+            <div class="information">
+            
+              <p><i class='bx bxs-phone-call' ></i> Tel #: (062) 975-6613 <br> Phone #: (Globe) 0905-345-5749	</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
 		<!-- ==== SECTION DIVIDER6 ==== -->
-		<section class="section-divider textdivider divider6">
-			<div class="container">
-				<h1>CRAFTED IN MERU, KENYA.</h1>
-				<hr>
-				<p>Address 972-60200 987,</p>
-				<p>0715096908</p>
-				<p><a class="icon icon-twitter" href="#"></a> | <a class="icon icon-facebook" href="#"></a></p>
-			</div><!-- container -->
-		</section><!-- section -->
-
-		<div class="container" id="contact" name="contact">
-			<div class="row">
-			<br>
-				<h1 class="centered">THANKS FOR VISITING US</h1>
-				<hr>
-				<br>
-				<br>
-				<div class="col-lg-4">
-					<h3>Our Contact Information</h3>
-					<p><span class="icon icon-home"></span>Address 972-60200 , MERU, KENYA<br/>
-						<span class="icon icon-phone"></span> 0715096908 <br/>
-						<span class="icon icon-mobile"></span> 0715096908 <br/>
-						<span class="icon icon-envelop"></span> <a href="#"> mtkenyarealestate.co.ke</a> <br/>
-						<span class="icon icon-twitter"></span> <a href="#">  Visit Us On Twitter</a> <br/>
-						<span class="icon icon-facebook"></span> <a href="http://www.facebook.com/mtkenyarealestate/"> Visit Us On facebook</a>
-					</p>
-				</div><!-- col -->
-				
-				<div class="col-lg-4">
-					<h3>Reach Us Now</h3>
-					<p>Send us a message now and see your dream come true</p>
-					<p>
-						<form class="form-horizontal" role="form" action="sendmessage.php" method="POST">
-							 <div class="form-group">
-						    <label for="name" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" name="name" placeholder="Enter Your Name">
-						    </div>
-						 </div>
-						     <div class="form-group">
-						    <label for="email" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="email" class="form-control" id="text1" name="email" placeholder="Enter Your Email">
-						    </div>
-						  </div>
-                              
-                               <div class="form-group">
-						    <label for="phone" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" name="phone" placeholder="Enter Your Phone Number">
-						    </div>
-						  </div>
-
-						  <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" name="message" placeholder="Your Message"></textarea>
-                                    </div>
-						
-						 
-						  <div class="form-group">
-						    <div class="col-lg-10">
-						      <button type="submit" name="submit" class="btn btn-success">SEND</button>
-						    </div>
-						  </div>
-
-					   </form><!-- form -->
-					</p>
-				</div><!-- col -->
-				
-				<div class="col-lg-4">
-					<h3>We Are Always At Your Service</h3>
-					<p>At Mt. Kenya Real Estate Developers Ltd. , We are committed to serve you better.</p>
-				</div><!-- col -->
-
-			</div><!-- row -->
-
-
 		
-		</div><!-- container -->
 
-		
-		<div class="container" id="register" name="register">
-			<div class="row">
-			<br>
-				<h1 class="centered">REGISTER NOW</h1>
-				<hr>
-				<br>
-				<br>
-				
-				<div class="">
-					<center><h3>Register With Us Now</h3>
-					<p>We value our clients and we offer the best services regarding real estate properties</p></center>
-					<p>
-
-                       <center>
-						<form class="" role="form" action="register.php" method="POST">
-							<div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Enter Your Full Name" required="required" name="fname">
-						    </div>
-						    <br>
-						    <br>
-						    <div class="col-lg-10">
-						      <input type="number" class="form-control" id="text1" placeholder="Enter Your Phone Number" required="required" name="phone">
-						    </div>
-						    <br>
-						    <br>
-						    <div class="col-lg-10">
-						      <input type="email" class="form-control" id="text1" placeholder="Enter Your Email Address" required="required" name="email">
-						    </div>
-						    <br>
-						    <br>
-						     <div class="col-lg-10">
-						    <tr>
-                            <td>Select Your Gender:</td>
-                            <td>
-                                <select name="gender" required="required">
-                                    <option> Select Gender </option>
-                                    <option> Male </option>
-                                    <option> Female </option>
-                                </select>
-                            </td>
-                        </tr>
-                    </div>
-                            <br>
-						    <br>
-                             <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Enter Username You Wish To Use" required="required" name="username">
-						    </div>
-						    <br>
-						    <br>
-						     <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Enter Your Location" required="required" name="location">
-						    </div>
-						    <br>
-						    <br>
-						     <div class="col-lg-10">
-						      <input type="password" class="form-control" id="text1" placeholder="Enter Password You Will Use For Login" required="required" name="password">
-						    </div>
-                            <br>
-						    <br>
-                        </tr>
-						 
-						  <div class="form-group">
-						    <div class="col-lg-10">
-						      <button type="submit" name="submit" class="btn btn-success">REGISTER</button>
-						    </div>
-						  </div>
-					   </form><!-- form -->
-						
-					</p>
-				</div><!-- col -->
-		
-			</div><!-- row -->
-		
-		</div><!-- container -->
-
-<div class="container" id="login" name="login">
-			<div class="row">
-			<br>
-				<h1 class="centered">LOGIN NOW</h1>
-				<hr>
-				<br>
-				<br>
-				
-				<div class="">
-					<center><h3><font size="10px;"><b>Client Login</b></font></h3>
-					<p>Login and Book Your Preferred Property Now</p></center>
-					<p>
-						<form class="" role="form" action="account.php" method="POST">
-						  
-						  <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Enter Username" name="username">
-						    </div>
-						    <br>
-						    <br>
-						     <div class="col-lg-10">
-						      <input type="password" class="form-control" id="text1" placeholder="Enter Password" name="password">
-						    </div>
-						    <br>
-						    <br>
-						  <div class="form-group">
-						    <div class="col-lg-10">
-						      <center><button type="submit" name="log" class="btn btn-success">LOGIN</button></center>
-						    </div>
-						    <center><a href="forgot_pass.php"><u>Forgot Password?</u></a></center>
-						  </div>
-					   </form><!-- form -->
-					</p>
-				</div><!-- col -->
-				
-				<div class="col-lg-4">
-					<h3>Thank You</h3>
-					<p>Thankyou for having an interest in Mt. Kenya Real Estate and Developers Ltd. Always keep in touch.</p>
-				</div><!-- col -->
-
-			</div><!-- row -->
-		
-		</div><!-- container -->
-
-		<div id="footerwrap">
-			<div class="container">
-				<h4>Created With Love by <a href="https://www.facebook.com/blairt94/">Tony Okoth</a> - Copyright 2018</h4>
-			</div>
-			<li> <a href="adminlogin.php" class="smoothScroll"><font color="red"><b><font color="white">Administrator</font></b></font></a></li>
-		</div>
+    <footer>
+        <div class="footer-content">
+            <h3>RCY REAL HOMES</h3>
+            <p>A copyright disclaimer is a statement that claims ownership of original content, or discloses your use of copyrighted materials </p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 RCYHOMES. powered by <span>Software devs PH</span></p>
+        </div>
+    </footer>
+    <!-- Modal === --->
+    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -448,6 +613,207 @@ Guided by our strong faith, good family values and genuine positive attitude in 
 	<script type="text/javascript" src="assets/js/retina.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+
+	<script>
+
+    $(document).ready(function(){
+
+
+var rating_data = 0;
+
+    $('#add_review').click(function(){
+
+        $('#review_modal').modal('show');
+
+    });
+
+    $(document).on('mouseenter', '.submit_star', function(){
+
+        var rating = $(this).data('rating');
+
+        reset_background();
+
+        for(var count = 1; count <= rating; count++)
+        {
+
+            $('#submit_star_'+count).addClass('text-warning');
+
+        }
+
+    });
+
+    function reset_background()
+    {
+        for(var count = 1; count <= 5; count++)
+        {
+
+            $('#submit_star_'+count).addClass('star-light');
+
+            $('#submit_star_'+count).removeClass('text-warning');
+
+        }
+    }
+
+    $(document).on('mouseleave', '.submit_star', function(){
+
+        reset_background();
+
+        for(var count = 1; count <= rating_data; count++)
+        {
+
+            $('#submit_star_'+count).removeClass('star-light');
+
+            $('#submit_star_'+count).addClass('text-warning');
+        }
+
+    });
+
+    $(document).on('click', '.submit_star', function(){
+
+        rating_data = $(this).data('rating');
+
+    });
+
+    $('#save_review').click(function(){
+
+        var user_name = $('#user_name').val();
+
+        var user_review = $('#user_review').val();
+
+        if(user_name == '' || user_review == '')
+        {
+            alert("Please Fill Both Field");
+            return false;
+        }
+        else
+        {
+            $.ajax({
+                url:"submit_rating.php",
+                method:"POST",
+                data:{rating_data:rating_data, user_name:user_name, user_review:user_review},
+                success:function(data)
+                {
+                    $('#review_modal').modal('hide');
+
+                    load_rating_data();
+
+                    alert(data);
+                }
+            })
+        }
+
+    });
+
+    load_rating_data();
+
+    function load_rating_data()
+    {
+        $.ajax({
+            url:"submit_rating.php",
+            method:"POST",
+            data:{action:'load_data'},
+            dataType:"JSON",
+            success:function(data)
+            {
+                $('#average_rating').text(data.average_rating);
+                $('#total_review').text(data.total_review);
+
+                var count_star = 0;
+
+                $('.main_star').each(function(){
+                    count_star++;
+                    if(Math.ceil(data.average_rating) >= count_star)
+                    {
+                        $(this).addClass('text-warning');
+                        $(this).addClass('star-light');
+                    }
+                });
+
+                $('#total_five_star_review').text(data.five_star_review);
+
+                $('#total_four_star_review').text(data.four_star_review);
+
+                $('#total_three_star_review').text(data.three_star_review);
+
+                $('#total_two_star_review').text(data.two_star_review);
+
+                $('#total_one_star_review').text(data.one_star_review);
+
+                $('#five_star_progress').css('width', (data.five_star_review/data.total_review) * 100 + '%');
+
+                $('#four_star_progress').css('width', (data.four_star_review/data.total_review) * 100 + '%');
+
+                $('#three_star_progress').css('width', (data.three_star_review/data.total_review) * 100 + '%');
+
+                $('#two_star_progress').css('width', (data.two_star_review/data.total_review) * 100 + '%');
+
+                $('#one_star_progress').css('width', (data.one_star_review/data.total_review) * 100 + '%');
+
+                if(data.review_data.length > 0)
+                {
+                    var html = '';
+
+                    for(var count = 0; count < data.review_data.length; count++)
+                    {
+                        html += '<div class="row mb-3">';
+
+                        html += '<div class="col-sm-1"><div class="rounded-circle bg-danger text-white pt-2 pb-2"><h3 class="text-center">'+data.review_data[count].user_name.charAt(0)+'</h3></div></div>';
+
+                        html += '<div class="col-sm-11">';
+
+                        html += '<div class="card">';
+
+                        html += '<div class="card-header"><b>'+data.review_data[count].user_name+'</b></div>';
+
+                        html += '<div class="card-body">';
+
+                        for(var star = 1; star <= 5; star++)
+                        {
+                            var class_name = '';
+
+                            if(data.review_data[count].rating >= star)
+                            {
+                                class_name = 'text-warning';
+                            }
+                            else
+                            {
+                                class_name = 'star-light';
+                            }
+
+                            html += '<i class="fas fa-star '+class_name+' mr-1"></i>';
+                        }
+
+                        html += '<br />';
+
+                        html += data.review_data[count].user_review;
+
+                        html += '</div>';
+
+                        html += '<div class="card-footer text-right">On '+data.review_data[count].datetime+'</div>';
+
+                        html += '</div>';
+
+                        html += '</div>';
+
+                        html += '</div>';
+                    }
+
+                    $('#review_content').html(html);
+
+                }
+            }
+        })
+    }
+
+
+
+
+
+
+
+    });
+</script>
 	
   </body>
 </html>
