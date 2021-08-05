@@ -62,7 +62,7 @@
 							<?php
 								include '../includes/config.php';
 								$select = "SELECT * FROM message";
-								$result = $conn->query($select);
+								$result = $connection->query($select);
 								while($row = $result->fetch_assoc()){
 							?>
 							<tr>

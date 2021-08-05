@@ -38,7 +38,7 @@
 			<?php
 						include 'includes/config.php';
 						$sel = "SELECT * FROM user WHERE username= '$_SESSION[username]'";
-						$rs = $conn->query($sel);
+						$rs = $connection->query($sel);
 						$rws = $rs->fetch_assoc();
 			?>
 				<li>

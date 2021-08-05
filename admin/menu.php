@@ -19,7 +19,8 @@
 			    <li><a href="view_clients.php"><span>View Clients</span></a></li>
 				<li><a href="add_cars.php"><span>Add New Property</span></a></li>
 				<li><a href="add_agent.php"><span>Add New agent</span></a></li>
-				<li><a href="add_client.php"><span>Add New Client</span></a></li>				
+				<li><a href="add_client.php"><span>Add New Client</span></a></li>
+				<li><a href="voucher_check.php"><span>Voucher Check</span></a></li>					
             </ul>
           </li>
 			</ul>

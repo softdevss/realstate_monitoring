@@ -121,7 +121,7 @@
 								
 								$qr = "INSERT INTO houses (agent,phonenumber,fName,house_type,image,rent_cost,location,location_description,max_capacity,status) 
 													VALUES ('$agent','$phonenumber','$fName','$house_type','$image','$rent_cost','$location','$location_description','$max_capacity','Available')";
-								$res =mysqli_query($conn,$qr) or die(mysqli_error($conn));
+								$res =mysqli_query($connection,$qr) or die(mysqli_error($connection));
 								if($res>0){
 									echo "<script type = \"text/javascript\">
 											alert(\"House added successfully\");

@@ -6,7 +6,7 @@ $l_username = $_POST['username'];
 $password = md5($_POST['password']);
 
 $sql = "SELECT * FROM agent where l_username='$l_username' and password='$password'";
-$rs =mysqli_query($conn,$sql) or die(mysqli_error($conn));
+$rs =mysqli_query($connection,$sql) or die(mysqli_error($connection));
 $num = $rs->num_rows;
 $rows = $rs->fetch_assoc();
 		if($num > 0)		{ 

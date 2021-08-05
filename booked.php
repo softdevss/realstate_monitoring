@@ -7,7 +7,7 @@
 	$id =$_SESSION['userid'];
 	
 	
-	$result = mysqli_query($conn,"SELECT * FROM user WHERE user_id ='$id'")or die(mysqli_error($conn));
+	$result = mysqli_query($connection,"SELECT * FROM user WHERE user_id ='$id'")or die(mysqli_error($connection));
 	$test = mysqli_fetch_array($result);
 ?>
 <?php
@@ -23,7 +23,7 @@
 							$houseid = $_POST['house'];				
 							$location = $_POST['location'];
 						
-							$query1 = mysqli_query($conn,"SELECT * FROM userbook WHERE user_id =$id AND status='booked' ") or die(mysqli_error($conn));
+							$query1 = mysqli_query($connection,"SELECT * FROM userbook WHERE user_id =$id AND status='booked' ") or die(mysqli_error($connection));
 							$result1 = mysqli_fetch_array($query1);
 							
 
@@ -38,12 +38,12 @@
 							}
 							else
 							{
-								$result = mysqli_query($conn,"INSERT INTO userbook (name,user_id,houseid,location,status)
-							VALUES('$name','$id','$houseid','$location','booked')") or die(mysqli_error($conn));
+								$result = mysqli_query($connection,"INSERT INTO userbook (name,user_id,houseid,location,status)
+							VALUES('$name','$id','$houseid','$location','booked')") or die(mysqli_error($connection));
 							if($result)
 							{
 								$house_id = $_REQUEST['id'];
-								$query=mysqli_query($conn,"UPDATE houses SET status='booked' WHERE house_id='$houseid'") or die(mysqli_error($conn));
+								$query=mysqli_query($connection,"UPDATE houses SET status='booked' WHERE house_id='$houseid'") or die(mysqli_error($connection));
 							}
 							if($query)
 							{

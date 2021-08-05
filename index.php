@@ -6,13 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="MUSA" >
     <link rel="shortcut icon" href="assets/ico/favicon.png">
-<<<<<<< HEAD
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>real estate management system</title>
-=======
 
     <title>RYC Zamboanga Best Homes</title>
->>>>>>> b406dcb966225070b274b52a5e729f6e232613df
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -41,22 +36,6 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
   
-<<<<<<< HEAD
-  <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">RCY REAL HOMES</label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">LANDS</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">SIGN IN</a></li>
-      </ul>
-    </nav>
-=======
   
   	<div id="navbar-main">
       <!-- Fixed navbar -->
@@ -89,7 +68,6 @@
     </div>
 
   
->>>>>>> b406dcb966225070b274b52a5e729f6e232613df
   
 		<!-- ==== HEADERWRAP ==== -->
 	    <div id="headerwrap" class="cover-background" id="home" name="home">

@@ -4,7 +4,7 @@
 	 header('location:index.php');}
 	require("includes/config.php");
 	$id =$_SESSION['userid'];
-	$result = mysqli_query($conn,"SELECT * FROM user WHERE user_id ='$id'")or die(mysqli_error($conn));
+	$result = mysqli_query($connection,"SELECT * FROM user WHERE user_id ='$id'")or die(mysqli_error($connection));
 	$test = mysqli_fetch_array($result);
 ?>
 <!DOCTYPE html>
@@ -44,7 +44,7 @@
 			<?php
 						include 'includes/config.php';
 						$sel = "SELECT * FROM houses WHERE house_id = '$_GET[id]'";
-						$rs = $conn->query($sel);
+						$rs = $connection->query($sel);
 						$rws = $rs->fetch_assoc();
 					    $house_id = $rws['house_id'];
 					    $status = $rws['status'];

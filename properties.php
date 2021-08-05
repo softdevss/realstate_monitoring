@@ -61,7 +61,7 @@
 			<?php
 						include 'includes/config.php';
 						$sel = "SELECT * FROM properties";
-						$rs = $conn->query($sel);
+						$rs = $connection->query($sel);
 						while($rws = $rs->fetch_assoc()){
 							
 			?>

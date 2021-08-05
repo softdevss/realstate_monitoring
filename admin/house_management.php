@@ -81,7 +81,7 @@
 							<?php
 								include '../includes/config.php';
 								$select = "SELECT * FROM houses";
-								$result = $conn->query($select);
+								$result = $connection->query($select);
 								while($row = $result->fetch_assoc()){
 							?>
 							<tr>

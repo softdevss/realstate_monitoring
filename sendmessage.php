@@ -11,7 +11,7 @@ $message = $_POST['message'];
 
 $qry = "INSERT INTO message (name,email,message,phone)
 							VALUES('$name','$email','$message','$phone')";
-							$result=mysqli_query($conn,$qry) or die(mysqli_error($conn));
+							$result=mysqli_query($connection,$qry) or die(mysqli_error($connection));
 							if($result>0){
 								echo "<script type = \"text/javascript\">
 											alert(\"Thank you for contacting us. You will get a reply as soon as posssible.\");

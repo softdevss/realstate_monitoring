@@ -55,7 +55,7 @@
 					$pass = $_POST['pass'];
 					
 					$qy = "SELECT * FROM client WHERE email = '$uname' AND id_no = '$pass'";
-					$log = $conn->query($qy);
+					$log = $connection->query($qy);
 					$num = $log->num_rows;
 					$row = $log->fetch_assoc();
 					if($num > 0){

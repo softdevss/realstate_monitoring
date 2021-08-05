@@ -61,17 +61,17 @@
 								<th>Rent price</th>
 								<th width="110" class="ac">Content Control</th>
 							</tr>
-							<?php
+								<?php
 								include '../includes/config.php';
-									session_start();
-						$_SESSION['username'] = $rows['l_username'];
-						$user=$_SESSION['username'];
-						$_SESSION['pass'] = $rows['password'];
+								session_start();
+								$_SESSION['username'] = $rows['l_username'];
+								$user=$_SESSION['username'];
+								$_SESSION['pass'] = $rows['password'];
 								$select = "SELECT * FROM houses where agent='$user'";
-								$result = $conn->query($select);
+								$result = $connection->query($select);
 								while($row = $result->fetch_assoc()){
-									
-							?>
+
+								?>
 							<tr>
 							
 								<td><input type="checkbox" class="checkbox" /></td>

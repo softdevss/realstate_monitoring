@@ -66,7 +66,7 @@
 						
 						$qry = "INSERT INTO message (message,status,name,email,phone)
 							VALUES('$message','Unread','$name','$email','$phone')";
-							$result = mysqli_query($conn,$qry) or die(mysqli_error($conn));
+							$result = mysqli_query($connection,$qry) or die(mysqli_error($connection));
 							if($result>0){
 								echo "<script type = \"text/javascript\">
 											alert(\"Your message has been successfully sent. You will get a reply once the message is processed.\");

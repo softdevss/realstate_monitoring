@@ -7,7 +7,7 @@
 	$id =$_SESSION['userid'];
 	
 	
-	$result = mysqli_query($conn,"SELECT * FROM user WHERE user_id ='$id'")or die(mysqli_error($conn));
+	$result = mysqli_query($connection,"SELECT * FROM user WHERE user_id ='$id'")or die(mysqli_error($connection));
 	$test = mysqli_fetch_array($result);
 ?>
 <?php
@@ -25,13 +25,13 @@
 							$cpass = md5($_POST['cpass']);
 						if($npass == $cpass)
 						{
-							$query = mysqli_query($conn, "SELECT * FROM user WHERE user_id = '$id'") or die(mysqli_error($conn));
+							$query = mysqli_query($connection, "SELECT * FROM user WHERE user_id = '$id'") or die(mysqli_error($connection));
 							$result = mysqli_fetch_array($query);
 							$password = $result['password'];
 
 							if($password == $opass)
 							{
-								$result = mysqli_query($conn,"UPDATE user SET password = '$npass' WHERE user_id = '$id'") or die(mysqli_error($conn));
+								$result = mysqli_query($connection,"UPDATE user SET password = '$npass' WHERE user_id = '$id'") or die(mysqli_error($connection));
 								if($result)
 								{
 									?>

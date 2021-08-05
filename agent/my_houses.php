@@ -2,7 +2,7 @@
 session_start();
 include '../includes/config.php';
 $l_username = $_SESSION['l_username'];
-$query1 = mysqli_query($conn, "SELECT * FROM agent WHERE l_username = '$l_username'");
+$query1 = mysqli_query($connection, "SELECT * FROM agent WHERE l_username = '$l_username'");
 $result1 = mysqli_fetch_array($query1);
 
 $fName = $result1['fName'];
@@ -71,7 +71,7 @@ $phonenumber = $result1['phonenumber'];
 							<?php
 								include '../includes/config.php';
 								$select = "SELECT * FROM houses";
-								$result = $conn->query($select);
+								$result = $connection->query($select);
 								while($row = $result->fetch_assoc()){
 							?>
 							<tr>

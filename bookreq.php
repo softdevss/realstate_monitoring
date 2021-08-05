@@ -7,7 +7,7 @@
 	$id =$_SESSION['userid'];
 	
 	
-	$result = mysqli_query($conn,"SELECT * FROM user WHERE user_id ='$id'")or die(mysqli_error($conn));
+	$result = mysqli_query($connection,"SELECT * FROM user WHERE user_id ='$id'")or die(mysqli_error($connection));
 	$test = mysqli_fetch_array($result);
 ?>
 
@@ -52,7 +52,7 @@ body
 			$house_id = $_REQUEST['id'];    
 			    $sel = "SELECT * FROM houses WHERE house_id = $house_id";
 			           
-						$rs = $conn->query($sel);
+						$rs = $connection->query($sel);
 						$rws = $rs->fetch_assoc();				
 					    $house_id = $rws['house_id'];	
 					    $location = $rws['location'];	

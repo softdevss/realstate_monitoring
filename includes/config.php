@@ -4,8 +4,16 @@
 	$pass = "";
 	$db = "real";
 	
-	$conn = new mysqli($host, $user, $pass, $db);
-	if($conn->connect_error){
-		echo "Failed:" . $conn->connect_error;
+	$connection = mysqli_connect($host,$user,$pass,$db);
+
+	if(!$connection){
+		
+		die("QUERY FAILED");
+		
+	}else{
+
+		
+	
 	}
+	
 ?>

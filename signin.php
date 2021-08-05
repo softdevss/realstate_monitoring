@@ -50,7 +50,7 @@
 					$pass = $_POST['password'];
 					
 					$query = "SELECT * FROM agent WHERE l_username = '$uname' AND password = '$pass'";
-					$rs = $conn->query($query);
+					$rs = $connection->query($query);
 					$num = $rs->num_rows;
 					$rows = $rs->fetch_assoc();
 					if($num > 0){
@@ -80,7 +80,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 $sql = "SELECT * FROM user where username='$username' and password='$password'";
-$result = $conn->query($sql);
+$result = $connection->query($sql);
 $num = $result->num_rows;
 $rows = $result->fetch_assoc();
 if ($num > 0) {    
@@ -102,7 +102,7 @@ header("location:index2.php?user=$username");
   </div>
 ';
 }
-$conn->close();
+$connection->close();
 
 } ?>
 <?php
@@ -114,7 +114,7 @@ $myuser = $_POST['username'];
 $mypass = $_POST['password'];
 
 $sql = "SELECT * FROM admin where uname='$myuser' and pass='$mypass'";
-$result = $conn->query($sql);
+$result = $connection->query($sql);
 $num = $result->num_rows;
 $rows = $result->fetch_assoc();
 if ($num > 0) {    
@@ -135,7 +135,7 @@ header("location:admin/index.php?user=$myuser");
   </div>
 ';
 }
-$conn->close();
+$connection->close();
 
 } ?>
 

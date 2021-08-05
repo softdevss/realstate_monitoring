@@ -70,7 +70,7 @@
 								$select = "SELECT userbook.houseid,userbook.name,userbook.user_id,houses.house_id,houses.rent_cost,user.fname 
 										FROM userbook LEFT JOIN houses ON userbook.houseid=houses.house_id LEFT JOIN user ON userbook.user_id=user.fname";
 
-								$result = mysqli_query($conn,$select) or die(mysqli_error($conn));
+								$result = mysqli_query($connection,$select) or die(mysqli_error($connection));
 								while($row = $result->fetch_assoc()){
 								
 							?>

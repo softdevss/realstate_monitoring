@@ -14,7 +14,7 @@ include 'includes/config.php';
 							
 							
 							$qry = "INSERT INTO user(fname, email, phone, username, password, location, gender) VALUES ('$fname','$email','$phone','$username','$password','$location','$gender')";
-							$result=mysqli_query($conn,$qry) or die(mysqli_error($conn));
+							$result=mysqli_query($connection,$qry) or die(mysqli_error($connection));
 							if($result>0){
 								echo "<script type = \"text/javascript\">
 											alert(\"Client Successfully Registered.\");

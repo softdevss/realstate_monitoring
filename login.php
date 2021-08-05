@@ -6,7 +6,7 @@
 					$pass = $_POST['password'];
 					
 					$query = "SELECT * FROM admin WHERE uname = '$uname' AND pass = '$pass'";
-					$rs = $conn->query($query);
+					$rs = $connection->query($query);
 					$num = $rs->num_rows;
 					$rows = $rs->fetch_assoc();
 					if($num > 0){

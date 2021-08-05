@@ -105,7 +105,7 @@ body
 							
 							
 							$qry = "INSERT INTO user(fname, email, id_no, phone, username, password, location, gender) VALUES ('$fname','$email','$id_no','$phone','$username','$password','$location','$gender')";
-							$result=mysqli_query($conn,$qry) or die(mysqli_error($conn));
+							$result=mysqli_query($connection,$qry) or die(mysqli_error($connection));
 							if($result>0){
 								echo "<script type = \"text/javascript\">
 											alert(\"Successfully Registered.\");

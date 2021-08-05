@@ -70,7 +70,7 @@
 								include '../includes/config.php';
 								$select = "SELECT * FROM user";
 
-								$result = mysqli_query($conn,$select) or die(mysqli_error($conn));
+								$result = mysqli_query($connection,$select) or die(mysqli_error($connection));
 								while($row = $result->fetch_assoc()){
 								
 							?>
