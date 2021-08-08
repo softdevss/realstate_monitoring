@@ -13,89 +13,63 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link href="css/stylingsheet.css" rel="stylesheet">
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	
-	<script>
-	/*$('#search').keyup(function()
-	{
-		var searchterm=$('#search').val();
-		if(searchitem!='')
-		{
-			$.post('search.php',{searchterm:searchterm}, function(data))
-		        {
-					$('#searchresults').html(data);
-				});
-		}
-	else
-	{
-		$.('#searchresults').html('');
-	}
-	});
 	
-	</script>
-	<style type="text/css">
-		.home
-		{
-			float: right;
-		}
-	</style>
-</head>
 <body>
-<div class="home">
-	<a href="index.php"><font color="purple"><b><u>BACK</u></b></font></a>
-</div>
+<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">RCY REAL HOMES</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">LANDS</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a></li>
+      </ul>
+    </nav>
 
-			<section class="caption">
-				<h2 class="caption" style="text-align: center"><font color="blue">A Look Into Some of Our Properties</font></h2>
-				<marquee><h3 class="properties" style="text-align: center"><font color="purple">Different Types of Properties At Your Fingertip. Register and Book Now</font></h3></marquee>
-			</section>
-	</section><!--  end hero section  -->
+	
 
-
-	<section class="listings">
-		<div class="wrapper">
-			<ul class="properties_list">
-			<?php
+	<div class="main-container">
+	<div class="grid">
+	<?php
 						include 'includes/config.php';
 						$sel = "SELECT * FROM properties";
 						$rs = $connection->query($sel);
 						while($rws = $rs->fetch_assoc()){
 							
 			?>
-				<li>
-					<a href="#">
-						<img class="thumb" src="house_images/<?php echo $rws['image'];?>" width="300" height="200">
-					</a>
-					<span class="price"><?php echo ''.$rws['rent_cost'];?></span>
-					<div class="property_details">
-						<h1>
-							<a href="#"><?php echo 'Property Type: '.$rws['house_type'];?></a>
-						</h1>
-						<h2><font color="purple">Location:</font> <span class="property_size"><?php echo $rws['location'];?></span></h2>
-						<h1>
-							<a href="#"><font color="purple"><?php echo 'Property Description:</font> '.$rws['location_description'];?></a>
-						</h1>
-						<h1>
-							<a href="index.php"><button><font color="blue">Register and Book Now</font></button></a>
-						</h1>
-						
-						
-						
-
-					</div>
-				</li>
-			<?php
+	
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="house_images/<?php echo $rws['image'];?>" alt="Rome" />
+          <div class="card-content">
+            <h1 class="card-header"><?php echo 'Property Type: '.$rws['house_type'];?></h1>
+			<p><?php echo ''.$rws['rent_cost'];?></p>
+			
+			<br>
+			<span><?php echo $rws['location'];?></span>
+            <p class="card-text">
+			<?php echo 'Property Description:</font> '.$rws['location_description'];?>
+            </p>
+            <button class="card-btn">Visit <span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+	  <?php
 				}
 			?>
-			</ul>
-		</div>
-	</section>	
-<!--  end listing section  -->
-
+    </div>
 	
+	</div>
 	
 </body>
 </html>

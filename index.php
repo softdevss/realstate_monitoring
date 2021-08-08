@@ -6,13 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="MUSA" >
     <link rel="shortcut icon" href="assets/ico/favicon.png">
-<<<<<<< HEAD
-
-    <title>RYC Zamboanga Best Homes</title>
-=======
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>RCY Real Homes</title>
->>>>>>> 8f9b26d3a2a9f24eac5b38a28c6c1aba8a7282cc
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -52,18 +47,6 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
   
-<<<<<<< HEAD
-  
-  	<div id="navbar-main">
-      <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon icon-shield" style="font-size:30px; color:pink;"></span>
-          </button>
-          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:pink;"></span></a>
-=======
   <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
@@ -121,7 +104,6 @@
                 required>
                 <button type="submit" class="submit-btn"style="color:white">Agent Sign In</button>
             </form>
->>>>>>> 8f9b26d3a2a9f24eac5b38a28c6c1aba8a7282cc
         </div>
 		
 				</div>
@@ -133,9 +115,6 @@
         var w = document.getElementById("agent");
         var z = document.getElementById("btn");
 
-<<<<<<< HEAD
-  
-=======
         function admin(){
             x.style.left = "-400px";
             y.style.left = "50px";
@@ -160,7 +139,6 @@
     </script>
   </div>
 </div>
->>>>>>> 8f9b26d3a2a9f24eac5b38a28c6c1aba8a7282cc
   
 		<!-- ==== HEADERWRAP ==== -->
 	    <div id="headerwrap" class="cover-background" id="home" name="home">

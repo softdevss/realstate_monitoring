@@ -999,3 +999,105 @@ footer{
   opacity: .4;
   font-weight: 200;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.main-container{
+  background-color: #ecebeb;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 100%;
+  font-size: 16px;
+  max-width: 100%;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+ 
+}
+
+
+.grid {
+  display: grid;
+  width: 100%;
+  max-width: 100%;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  align-items: start;
+}
+
+.grid-item {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 1rem;
+}
+
+.grid-item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 2rem;
+  height: 350px;
+}
+
+.card-header {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ff10eb9d;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #ba53de;
+  background-color: #ffcef3;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.card-btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active {
+  background-color: #ffcef3ce;
+}
+
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+
+
