@@ -104,7 +104,7 @@
 							$particular    = $_POST['particular'];
 							$remarks 	   = $_POST['remarks'];
 																																			
-				$query = " INSERT INTO `check`(`id`, `bank_name`, `date_issue`, `checked_date`, `voucher_no`, `checked_number`, `particulars`, `remarks`) VALUES ('[$id]','[$bank]','[$dateissue]','[$checkdate]','[$voucher]','[$checkNum]','[$particular]','[$remarks]') ";
+				$query = " INSERT INTO `check`(`id`, `bank_name`, `date_issue`, `checked_date`, `voucher_no`, `checked_number`, `particulars`, `remarks`) VALUES ('[$id]','[$bank]','$dateissue','$checkdate','[$voucher]','[$checkNum]','[$particular]','[$remarks]') ";
 
 					$create_voucher_query = mysqli_query($connection, $query);
 
