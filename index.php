@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link href="css/animate-custom.css" rel="stylesheet">
     <link rel="stylesheet" href="css/admin.css">
-
+    <link href="css/stylingsheet.css" rel="stylesheet">
 	<!---- font icons -->
+    
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="css/stylingsheet.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     

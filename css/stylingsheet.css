@@ -1002,40 +1002,28 @@ footer{
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-.main-container{
-  background-color: #ecebeb;
-  font-family: "Poppins", sans-serif;
+
+
+.grid{
   display: flex;
-  justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  font-size: 100%;
-  font-size: 16px;
-  max-width: 100%;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
+  justify-content: center;
   flex-wrap: wrap;
- 
-}
-
-
-.grid {
-  display: grid;
   width: 100%;
   max-width: 100%;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  align-items: start;
 }
 
 .grid-item {
   background-color: #fff;
-  border-radius: 0.4rem;
+  border-radius: 10px 10px  ;
   overflow: hidden;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.2s;
-  margin: 1rem;
+  margin: 2REM;
+  width: 350px;
+  max-width: 100%;
+  
 }
 
 .grid-item:hover {

@@ -38,7 +38,7 @@
 
 	
 
-	<div class="main-container">
+	
 	<div class="grid">
 	<?php
 						include 'includes/config.php';
@@ -69,7 +69,7 @@
 			?>
     </div>
 	
-	</div>
+	
 	
 </body>
 </html>
