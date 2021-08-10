@@ -186,21 +186,21 @@ img
   text-decoration: underline;
 }
 .radio1:focus{
-  color: blue;
+  color: #ea7dc7;
 }
 .radio2:hover {
   color: #ea7dc7;
   text-decoration: underline;
 }
 .radio2:focus{
-  color: blue;
+  color: #ea7dc7;
 }
 .radio3:hover {
   color: #ea7dc7;
   text-decoration: underline;
 }
 .radio3:focus{
-  color: blue;
+  color: #ea7dc7;
 }
 
 
