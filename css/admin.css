@@ -185,23 +185,17 @@ img
   color: #ea7dc7;
   text-decoration: underline;
 }
-.radio1:focus{
-  color: #ea7dc7;
-}
+
 .radio2:hover {
   color: #ea7dc7;
   text-decoration: underline;
 }
-.radio2:focus{
-  color: #ea7dc7;
-}
+
 .radio3:hover {
   color: #ea7dc7;
   text-decoration: underline;
 }
-.radio3:focus{
-  color: #ea7dc7;
-}
+
 
 
 .container{
