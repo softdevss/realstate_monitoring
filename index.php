@@ -65,78 +65,55 @@
 <!-- Modal === --->
 
 
+
+
+
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-<div class="modal-dialog">
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+			<div class="modal-dialog">
 				<div class="modal-content">
-				
-					<div class="form-box">
+				<div class="form-box">
             <div>
                   <img src="logo.jpg">
             </div>
           
-            <div class="button-box">
-                <div id="btn"></div>
-                <button type="button" class="toggle-btn" onclick="client()">Client Login</button>
-                <button type="button" class="toggle-btn" onclick="admin()">Admin Login</button>
-                <button type="button" class="toggle-btn" onclick="agent()">Agent Login</button>
-             
+          
+              
+              <div class="container">
+                    <div class="radio1">Client
+                        <input type="radio" checked="checked" name="radio">
+                        <label class="checkmark"></label>
+                    </div>
+                    <div class="radio2">Admin
+                        <input type="radio" checked="checked" name="radio">
+                        <label class="checkmark"></label>
+                    </div>
+                    <div class="radio3">Agent
+                        <input type="radio" checked="checked" name="radio">
+                        <label class="checkmark"></label>
+                    </div>
             </div>
+             
+            
+                
             <form id="client" class="input-group">
-                <input type="text" class="input-field" placeholder="Client Username"
+                <input type="text" class="input-field" placeholder="USERNAME"
                 required>
-                <input type="text" class="input-field" placeholder="Client Password"
+                <input type="text" class="input-field" placeholder="PASSWORD"
                 required>
-                <button type="submit" class="submit-btn" style="color:white">Client Sign In</button>
+                <button type="submit" class="submit-btn" style="color:white">SIGN IN</button>
+                 
             </form>
-               <form id="admin" class="input-group">
-                <input type="text" class="input-field" placeholder="Admin Username"
-                required>
-                <input type="text" class="input-field" placeholder="Admin Password"
-                required>
-                <button type="submit" class="submit-btn"style="color:white">Admin Sign In</button>
-            </form>
-            <form id="agent" class="input-group">
-                <input type="text" class="input-field" placeholder="Agent Username"
-                required>
-                <input type="text" class="input-field" placeholder="Agent Password"
-                required>
-                <button type="submit" class="submit-btn"style="color:white">Agent Sign In</button>
-            </form>
+              
         </div>
 		
 				</div>
 			</div>
 		</div>
-		<script>
-        var x = document.getElementById("client");
-        var y = document.getElementById("admin");
-        var w = document.getElementById("agent");
-        var z = document.getElementById("btn");
-
-        function admin(){
-            x.style.left = "-400px";
-            y.style.left = "50px";
-            w.style.left="-400px"
-            z.style.left = "110px";
-            y.style.color="white"
-        }
-         function client(){
-            x.style.left = "50px";
-            y.style.left = "450px";
-            w.style.left = "450px"
-            z.style.left = "0px";
-            x.style.color="white"
-        }
-         function agent(){
-            x.style.left = "-800px";
-            y.style.left="-450px"
-            w.style.left = "50px";
-            z.style.left = "210px";
-        }
-        
-    </script>
+	
+    </div>
   </div>
 </div>
   
@@ -592,6 +569,7 @@
 	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
 	<script type="text/javascript" src="assets/js/app.js"></script>
+   
 
 	<script>
 
