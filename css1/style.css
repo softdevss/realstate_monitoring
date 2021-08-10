@@ -316,4 +316,51 @@ footer p.social_icons img{
 footer p.social_icons a img:hover{
 	background-color: #ef3f03;
 }
+
+
+
+.banner video{
+    position:absolute;
+    top: 2;
+    left: 2;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  
+  
+  }
+  .banner{
+    width: 100%;
+    max-width: 100%;
+    height: 90vh;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner .video-content{
+    background-color: rgba(58, 57, 57, 0.5);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color:#fff;
+  }
+  .banner .video-content h1{
+      
+      color:#fff;
+      font-size: 3rem;
+      font-weight: bolder;
+      font-family: 'montserrat';
+      letter-spacing: 10px;
+  }
+  .banner .video-content p{
+    color: #fff;
+    font-weight: 3rem;
+    letter-spacing: 5px;
+  
+  }
 /*##########################################################*/

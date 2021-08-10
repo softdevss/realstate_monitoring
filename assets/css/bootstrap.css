@@ -5579,6 +5579,33 @@ button.close {
 .carousel-caption .btn {
   text-shadow: none;
 }
+
+
+.banner video{
+  position:absolute;
+  top: 2;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+
+}
+.banner{
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  overflow:hidden;
+  object-fit: cover;
+  justify-content: center;
+  
+ 
+}
+
+
+
+
+
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicons-chevron-left,
   .carousel-control .glyphicons-chevron-right,

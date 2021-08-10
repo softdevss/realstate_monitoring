@@ -37,9 +37,7 @@
 			Client Requests
 			<center><h1><font color="green"><a href="studes.php"><u><b>Voucher Check Details.</b></u></a></font></h1></center>
 		</div>
-		
 		<br />
-		
 		<div id="main">
 			<div class="cl">&nbsp;</div>
 			
@@ -67,15 +65,15 @@
 				</tr>
 			</thead>
 			<tbody>
-
            <?php 
 		   
 			include "../includes/config.php";
-			$query = "SELECT * FROM check ";
-			$select_view = mysqli_query($connection, $query);
+			
+			$query = "SELECT * FROM `check`  ";
+			$select_view = mysqli_query($connection,$query);
 			
 			while($row = mysqli_fetch_assoc($select_view)){
-				
+					
 			$id         = $row['id'];
 			$bankName    = $row['bank_name'];  
 			$dateIssue     = $row['date_issue'];
@@ -96,7 +94,7 @@
 				echo "<td>$remarks</td>";
 				
 			echo "<tr>";					
-			}	
+			}
 
 			
 			?>
