@@ -1,3 +1,6 @@
+<?php ob_start(); ?>
+<?php session_start();?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -10,9 +13,11 @@
 				window.location.href ='edit1.php?id='+id;
 			}
 		}
-		function sureToDelete(id){
-			if(confirm("Are you sure you want to Delete this request?")){
-				window.location.href ='delete1.php?id='+id;
+	
+
+		function sureToApprove(id){
+			if(confirm("Are you sure you want to delete this message?")){
+				window.location.href ='delete_msg.php?id='+id;
 			}
 		}
 	</script>
@@ -61,7 +66,10 @@
 					<th>Voucher no.</th>
 					<th>Checked no.</th>
 					<th>Particulars</th>
-					<th>Remarks</th>          
+					<th>Remarks</th>
+					<th>Update</th>   
+					<th>Removed</th>
+					       
 				</tr>
 			</thead>
 			<tbody>
@@ -92,6 +100,8 @@
 				echo "<td>$checkNum</td>";
 				echo "<td>$particular</td>";
 				echo "<td>$remarks</td>";
+				echo "<td><a href='events.php?source=edit_event&edit_event_id={$id}'>Edit</a></td>";
+				echo "<td><a onClick=\"javascript: return confirm('Are you sure you want to delete?');\" href='view_voucher_check.php?delete={$id}'>Delete</a></td>";
 				
 			echo "<tr>";					
 			}
@@ -100,6 +110,20 @@
 			?>
 			</tbody>
 			</table>
+
+			<?php 
+if(isset($_GET['delete'])){
+
+$the_comment_id = $_GET['delete'];
+
+$query  = "DELETE FROM `check` WHERE id = {$the_comment_id} ";
+$delete_query = mysqli_query($connection,$query);
+
+header("Location: view_voucher_check.php");
+
+}
+
+?>
 			
 			
 			<div class="cl">&nbsp;</div>			

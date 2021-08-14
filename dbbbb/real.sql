@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 25, 2018 at 12:11 PM
--- Server version: 5.7.14
--- PHP Version: 5.6.25
+-- Generation Time: Aug 14, 2021 at 08:39 AM
+-- Server version: 10.4.20-MariaDB
+-- PHP Version: 8.0.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -42,6 +43,61 @@ INSERT INTO `admin` (`admin_id`, `uname`, `pass`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `agent`
+--
+
+CREATE TABLE `agent` (
+  `agent_id` int(11) NOT NULL,
+  `l_username` varchar(30) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `fName` varchar(50) NOT NULL,
+  `phonenumber` varchar(10) NOT NULL,
+  `gender` varchar(20) NOT NULL,
+  `location` varchar(200) NOT NULL,
+  `password` varchar(32) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `agent`
+--
+
+INSERT INTO `agent` (`agent_id`, `l_username`, `email`, `fName`, `phonenumber`, `gender`, `location`, `password`) VALUES
+(8, 'kiome', 'vic@gmail.com', 'kIOME VIC', '0733223321', 'Male', 'Makutano', '81dc9bdb52d04dc20036dbd8313ed055'),
+(9, 'blairman', 'blairman001@gmail.com', 'Tony Blair', '0715096908', '', 'Kisumu City', 'e10adc3949ba59abbe56e057f20f883e'),
+(10, 'blair', 'ddghg@gmail.com', 'tony', '45655', 'Male', 'nchiru', '81dc9bdb52d04dc20036dbd8313ed055'),
+(12, 'Vic', 'vic@gmail.com', 'Victor Kiome', '075354256', 'Male', 'Meru', '81dc9bdb52d04dc20036dbd8313ed055');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `check`
+--
+
+CREATE TABLE `check` (
+  `id` int(15) NOT NULL,
+  `bank_name` varchar(255) NOT NULL,
+  `date_issue` date NOT NULL,
+  `checked_date` date NOT NULL,
+  `voucher_no` varchar(255) NOT NULL,
+  `checked_number` varchar(255) NOT NULL,
+  `particulars` varchar(255) NOT NULL,
+  `remarks` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `check`
+--
+
+INSERT INTO `check` (`id`, `bank_name`, `date_issue`, `checked_date`, `voucher_no`, `checked_number`, `particulars`, `remarks`) VALUES
+(2, '[Land Bank]', '0000-00-00', '0000-00-00', '[04212]', '[242,0000]', '[Balagbag]', '[basta here]'),
+(3, '[BPI]', '0000-00-00', '0000-00-00', '[04212]', '[200,0000]', '[Balagbag]', '[san totomas mt pilakbu]'),
+(4, '[Union Banks]', '2021-08-05', '2021-08-14', '[0331]', '[123123,12312331]', '[Mr. Chow]', '[san totomas mt pilakbua]'),
+(5, '[asdasdasdasdasdasd]', '2021-08-10', '2021-08-11', '[123123]', '[1233123]', '[121231331]', '[today]'),
+(6, '[asdasdasdasdasdasd]', '2021-08-10', '2021-08-11', '[123123]', '[1233123]', '[121231331]', '[today]');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `contact`
 --
 
@@ -50,7 +106,7 @@ CREATE TABLE `contact` (
   `fname` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `message` text NOT NULL,
-  `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+  `date` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -103,33 +159,6 @@ INSERT INTO `houses` (`house_id`, `house_type`, `image`, `rent_cost`, `location`
 (41, 'House', 'real8.jpg', 'Ksh 200,000', 'Nanyuki', 'For Rental', '2 Bedrooms', '', 0, 'Available'),
 (42, 'House', 'dan1.jpg', 'Ksh 100,000', 'Meru', 'Best Place to be.', '4 ROOMS', 'Victor Kiome', 71234234, 'Added'),
 (43, 'house', 'house1.jpg', 'Ksh 200000', 'Chuka', 'Cool Place', '3 rooms', 'kIOME VIC', 733223321, 'Added');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `agent`
---
-
-CREATE TABLE `agent` (
-  `agent_id` int(11) NOT NULL,
-  `l_username` varchar(30) NOT NULL,
-  `email` varchar(30) NOT NULL,
-  `fName` varchar(50) NOT NULL,
-  `phonenumber` varchar(10) NOT NULL,
-  `gender` varchar(20) NOT NULL,
-  `location` varchar(200) NOT NULL,
-  `password` varchar(32) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `agent`
---
-
-INSERT INTO `agent` (`agent_id`, `l_username`, `email`, `fName`, `phonenumber`, `gender`, `location`, `password`) VALUES
-(8, 'kiome', 'vic@gmail.com', 'kIOME VIC', '0733223321', 'Male', 'Makutano', '81dc9bdb52d04dc20036dbd8313ed055'),
-(9, 'blairman', 'blairman001@gmail.com', 'Tony Blair', '0715096908', '', 'Kisumu City', 'e10adc3949ba59abbe56e057f20f883e'),
-(10, 'blair', 'ddghg@gmail.com', 'tony', '45655', 'Male', 'nchiru', '81dc9bdb52d04dc20036dbd8313ed055'),
-(12, 'Vic', 'vic@gmail.com', 'Victor Kiome', '075354256', 'Male', 'Meru', '81dc9bdb52d04dc20036dbd8313ed055');
 
 -- --------------------------------------------------------
 
@@ -243,6 +272,18 @@ ALTER TABLE `admin`
   ADD PRIMARY KEY (`admin_id`);
 
 --
+-- Indexes for table `agent`
+--
+ALTER TABLE `agent`
+  ADD PRIMARY KEY (`agent_id`);
+
+--
+-- Indexes for table `check`
+--
+ALTER TABLE `check`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `contact`
 --
 ALTER TABLE `contact`
@@ -259,12 +300,6 @@ ALTER TABLE `hire`
 --
 ALTER TABLE `houses`
   ADD PRIMARY KEY (`house_id`);
-
---
--- Indexes for table `agent`
---
-ALTER TABLE `agent`
-  ADD PRIMARY KEY (`agent_id`);
 
 --
 -- Indexes for table `message`
@@ -299,46 +334,62 @@ ALTER TABLE `userbook`
 --
 ALTER TABLE `admin`
   MODIFY `admin_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
---
--- AUTO_INCREMENT for table `contact`
---
-ALTER TABLE `contact`
-  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
---
--- AUTO_INCREMENT for table `hire`
---
-ALTER TABLE `hire`
-  MODIFY `hire_id` int(11) NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT for table `houses`
---
-ALTER TABLE `houses`
-  MODIFY `house_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+
 --
 -- AUTO_INCREMENT for table `agent`
 --
 ALTER TABLE `agent`
   MODIFY `agent_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+--
+-- AUTO_INCREMENT for table `check`
+--
+ALTER TABLE `check`
+  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- AUTO_INCREMENT for table `contact`
+--
+ALTER TABLE `contact`
+  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `hire`
+--
+ALTER TABLE `hire`
+  MODIFY `hire_id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `houses`
+--
+ALTER TABLE `houses`
+  MODIFY `house_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+
 --
 -- AUTO_INCREMENT for table `message`
 --
 ALTER TABLE `message`
   MODIFY `msg_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT for table `properties`
 --
 ALTER TABLE `properties`
   MODIFY `house_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
   MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
 --
 -- AUTO_INCREMENT for table `userbook`
 --
 ALTER TABLE `userbook`
   MODIFY `userbook_id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
