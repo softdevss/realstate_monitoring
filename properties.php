@@ -46,10 +46,10 @@
       </label>
       <label class="logo">RCY REAL HOMES</label>
       <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">LANDS</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a class="active" href="index.php">Home</a></li>
+        <li><a href="properties.php">Lands</a></li>
+        <li><a href="index.php#reviews">Reviews</a></li>
+        <li><a href="index.php#contact">Contact</a></li>
         <li><a href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a></li>
       </ul>
     </nav>

@@ -55,9 +55,9 @@
       <label class="logo">RCY REAL HOMES</label>
       <ul>
         <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">LANDS</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="properties.php">Lands</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a></li>
       </ul>
     </nav>
@@ -216,7 +216,7 @@
 										</li>
 									</ul>
                   
-									<div class="btn"><button>GET STARTED</button></div>
+									<div class="btn"><button>GET STARTED</a></div></button>
 									</div>
 									<div class="table premium">
 									<div class="ribbon"><span>THE BEST</span></div>
@@ -325,8 +325,9 @@
 		<!-- ==== SECTION DIVIDER4 ==== -->
 		
 		
-		<!-- ==== BLOG ==== -->
-		<div class="container">
+		<!-- ==== CLIENT REVIEWS SECTION ==== -->
+        <section id="reviews" class="review section-bg">
+      <div class="container" data-aos="fade-up">
 		
 				<br>
 				<h1 class="centered">CLIENT REVIEWS</h1>
@@ -458,9 +459,10 @@
 <br>
 <br>
 
-
-
-		<div class="containers">
+<!-- ==== CONTACT SECTION ==== -->
+<section id="contact" class="contact section-bg">
+      <div class="containers" data-aos="fade-up">
+	
       <span class="big-circle"></span>
 
       <div class="form">
