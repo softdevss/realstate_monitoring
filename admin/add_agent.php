@@ -120,7 +120,7 @@
 								
 								$qr = "INSERT INTO agent (l_username, email,fName,phonenumber,gender,location,password) 
 													VALUES ('$l_username','$email','$fName','$phonenumber','$gender','$location','$password')";
-								$res =mysqli_query($conn,$qr) or die(mysqli_error($conn));
+								$res =mysqli_query($connection,$qr) or die(mysqli_error($connection));
 								if($res>0){
 									echo "<script type = \"text/javascript\">
 											alert(\"agent added successfully\");

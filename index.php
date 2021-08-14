@@ -55,7 +55,7 @@
       <label class="logo">RCY REAL HOMES</label>
       <ul>
         <li><a class="active" href="#">Home</a></li>
-        <li><a href="properties.php">Lands</a></li>
+        <li><a  href="properties.php">Lands</a></li>
         <li><a href="#reviews">Reviews</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="" data-toggle="modal" data-target="#exampleModal">SIGN IN</a></li>
@@ -216,7 +216,7 @@
 										</li>
 									</ul>
                   
-									<div class="btn"><button>GET STARTED</a></div></button>
+									<div class="btn"><button>GET STARTED</button></div>
 									</div>
 									<div class="table premium">
 									<div class="ribbon"><span>THE BEST</span></div>
