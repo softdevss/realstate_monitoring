@@ -71,31 +71,30 @@
 <!-- Modal -->
 
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-			<div class="modal-dialog">
-				<div class="modal-content">
+      
+			<div class="modal-dialog modal-flex">
+				<div class="modal-content form-width">
 				<div class="form-box">
             <div>
+                <div class="logo-con">
                   <img src="logo.jpg">
+                </div>
             </div>
           
           
-              
-              <div class="container">
-                    <div class="radio1">Client
-                        <input type="radio" checked="checked" name="radio">
-                        <label class="checkmark"></label>
-                    </div>
-                    <div class="radio2">Admin
-                        <input type="radio" checked="checked" name="radio">
-                        <label class="checkmark"></label>
-                    </div>
-                    <div class="radio3">Agent
-                        <input type="radio" checked="checked" name="radio">
-                        <label class="checkmark"></label>
-                    </div>
-            </div>
-             
+            <div class="radio-wrapper">
+              <div class="container-rbn">
+               
+                    <input class="radio__input" value="radio1" type="radio" name="radio" id="radio1">
+                    <label class="radio__label " for="radio1">CLIENT</label>
+                    <input class="radio__input" value="radio2" type="radio" name="radio" id="radio2">
+                    <label class="radio__label " for="radio2">AGENT</label>
+                    <input class="radio__input" value="radio3" type="radio" name="radio" id="radio3">
+                    <label class="radio__label " for="radio3">ADMIN</label>
+
+               
+             </div>
+        </div>       
             
                 
             <form id="client" class="input-group">
@@ -115,37 +114,52 @@
 	
     </div>
   </div>
-</div>
+
   
 		<!-- ==== HEADERWRAP ==== -->
 	    <div id="headerwrap" class="cover-background" id="home" name="home">
 				<div class="header-content">
 					<h3>Dream <br><span>Home</span> is <br>Right Here</h3>
 				</div>
-	    </div><!-- /headerwrap --
+	    </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- /headerwrap -->
 
 		<!-- ==== GREYWRAP ==== -->
-		<div id="greywrap">
-			<div class="row">
-				<div class="col-lg-4 callout callouts call">
+		 <div id="greywrap">
+			<div class="card-flex">
+				<div class=" callouts call">
 					<span class="icon icon-stack"></span>
 					<h2>Our Mission</h2>
 					<p class="about-title">Our mission is to provide exceptional services and customer satisfaction by fulfilling their need of residential houses. We aim to be more results oriented yet with a happy working environment. </p>
-				</div><!-- col-lg-4 -->
+				</div>
 					
-				<div class="col-lg-4 callout callouts call">
+				<div class=" callouts call">
 					<span class="icon icon-eye"></span>
 					<h2>Our Vision</h2>
 					<p class="about-title">By 2025 our company will be the number one real estate developer in Zamboanga City, and will not only cater residential housing but as well as engaging in the development of offices, apartments, hotels and mixed – use projects by branching out our services and creating eco friendly yet affordable service to our customers. </p>
-				</div><!-- col-lg-4 -->	
+				</div>
 				
-				<div class="col-lg-4 callout callouts call">
+				<div class="  callouts call">
 					<span class="icon icon-heart"></span>
 					<h2>Our Sovereignity</h2>
 					<p class="about-title">Our customers are our top priority. We continuously offer the newest design in houses, providing them options to fill in their needs. We only use high quality standard materials yet providing affordable and budget payment terms </p>
-				</div><!-- col-lg-4 -->	
-			</div><!-- row -->
-		</div><!-- greywrap -->
+				</div>
+			</div>
+		</div>
 		
 		<!-- ==== ABOUT ==== -->
 		<br>
@@ -284,13 +298,13 @@
 
 
 
-  <div class="row centered about-title ">
+        <!-- <div class="row centered about-title ">
 				<div class="col-lg-offset-2 col-lg-12">
 					<img class="img-responsive img-fluid" src="assets/img/house.png" alt="">
-				</div><!-- col -->
-			</div><!-- row -->
-		</div><!-- container -->
-  		
+				</div>
+			</div>
+		</div> -->
+
 
 		<!-- ==== SECTION DIVIDER2 -->
 		<section class="section-divider textdivider divider2">
@@ -302,7 +316,7 @@
 		</section><!-- section -->
 
 		<!-- ==== GREYWRAP ==== -->
-		<div id="greywrap">
+		<!-- <div id="greywrap">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 centered">
@@ -313,11 +327,11 @@
 						<p class="text-justify">Do you want to be one of use? Sure you want, because we are an awesome team. Here we work hard every day for our quality service register now</p>
 						<p><a class="register-btn">SIGN UP</a></p>
 					</div>					
-				</div><!-- row -->
+				</div>
 			</div>
 			<br>
 			<br>
-		</div><!-- greywrap -->
+		</div> -->
 		
 		<!-- ==== SECTION DIVIDER3 -->
 		
@@ -402,8 +416,7 @@
     	</div>
     	<div class="mt-5" id="review_content"></div>
     </div>
-	</body>
-</html>
+	
 
 <div id="review_modal" class="modal" tabindex="-1" role="dialog">
   	<div class="modal-dialog" role="document">
@@ -435,29 +448,7 @@
     	</div>
   	</div>
 </div>
-
-
-<style>
-.progress-label-left
-{
-    float: left;
-    margin-right: 0.5em;
-    line-height: 1em;
-}
-.progress-label-right
-{
-    float: right;
-    margin-left: 0.3em;
-    line-height: 1em;
-}
-.star-light
-{
-    color:#e9ecef;
-}
-</style>
-
-<br>
-<br>
+        </section>
 
 <!-- ==== CONTACT SECTION ==== -->
 <section id="contact" class="contact section-bg">
@@ -555,7 +546,7 @@
             </ul>
         </div>
         <div class="footer-bottom">
-            <p>copyright &copy;2021 RCYHOMES. powered by <span>Software devs PH</span></p>
+            <p>copyright &copy;2021 RCYHOMES. powered by <br> <span>Software devs PH</span></p>
         </div>
     </footer>
     <!-- Modal === --->

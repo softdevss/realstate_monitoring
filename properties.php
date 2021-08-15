@@ -55,14 +55,22 @@
     </nav>
 
 
-
+  <div class="header">
             <div class="banner">
                     <video autoplay muted loop>
                         <source src="assets/videos/rcy.mp4" type="video/mp4" >
                     </video>
+                </div>
+                <div class="overlay"></div>
+                <div class="texts">
+                  <h1>Comfortable homes awaits you</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, id!</p>
+                  <br>
+                  <a href="" class="button">Find out more</a>
+                </div>
+          </div>
 
-            </div>
-
+          
 
 
 	<div class="grid">
